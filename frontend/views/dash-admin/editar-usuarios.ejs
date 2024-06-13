@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.2/dist/tailwind.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://i.ibb.co/T4NYsZv/subirlogo.png"
+      type="image/x-icon"
+    />
+    <title>Admin - Hospital Ramon Carrillo</title>
+  </head>
+  <body>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Outfit:wght@100..900&display=swap");
+
+      html,
+      body {
+        font-family: "Outfit", sans-serif;
+        min-height: 100%;
+        background-color: rgb(215, 234, 250);
+      }
+
+      .rounded-xl {
+        border-radius: 2rem;
+      }
+    </style>
+    <div class="bg-orange-100 min-h-screen text-sm">
+      <div class="fixed bg-white text-blue-800 px-10 py-1 z-10 w-full">
+        <div class="flex items-center justify-between py-2">
+          <img
+            src="https://i.ibb.co/9nzzWPZ/subirlogo2.png"
+            alt="Logo"
+            class="h-14 w-auto"
+            draggable="false"
+          />
+          <div class="flex items-center text-gray-500 relative">
+            <div
+              id="profileImage"
+              class="bg-center bg-cover bg-no-repeat rounded-full inline-block h-12 w-16 ml-2 cursor-pointer"
+            >
+              <span
+                class="material-icons"
+                style="font-size: 42px; font-weight: 600"
+                >face</span
+              >
+            </div>
+
+            <!-- region MARK: Menu -->
+            <div
+              id="dropdownMenu"
+              class="absolute right-0 mt-14 w-48 bg-white rounded-md shadow-lg z-10 hidden md:right-10 md:mt-12"
+            >
+              <ul class="py-1">
+                <li>
+                  <a
+                    href="ver-perfil-admin"
+                    class="block px-4 py-2 text-gray-800 hover:bg-gray-200"
+                    >Perfil</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="configuracion-admin"
+                    class="block px-4 py-2 text-gray-800 hover:bg-gray-200"
+                    >Configuración</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="/auth/logout"
+                    class="block px-4 py-2 text-gray-800 hover:bg-gray-200"
+                    >Cerrar sesión</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- region MARK: APP -->
+      <div class="flex flex-col lg:flex-row pt-24 px-10 pb-4 text-base">
+        <div class="w-full lg:w-2/12 mt-6 mr-6">
+          <div class="bg-white rounded-xl shadow-lg mb-6 px-6 py-4">
+            <a
+              href="dashboard-admin"
+              class="inline-block text-gray-600 hover:text-blue-500 my-4 w-full"
+            >
+              <span class="material-icons-outlined float-left pr-2">home</span>
+              Inicio
+              <span class="material-icons-outlined float-right"
+                >keyboard_arrow_right</span
+              >
+            </a>
+            <a
+              href="historial-recetas-admin"
+              class="inline-block text-gray-600 hover:text-green-500 my-4 w-full"
+            >
+              <span class="material-icons-outlined float-left pr-2"
+                >file_copy</span
+              >
+              Historial de Recetas
+              <span class="material-icons-outlined float-right"
+                >keyboard_arrow_right</span
+              >
+            </a>
+            <a
+              href="registro-medicamentos-admin"
+              class="inline-block text-gray-600 hover:text-green-500 my-4 w-full"
+            >
+              <span class="material-icons-outlined float-left pr-2"
+                >manage_search</span
+              >
+              Registro de Medicamentos
+              <span class="material-icons-outlined float-right"
+                >keyboard_arrow_right</span
+              >
+            </a>
+            <a
+              href="otorgar-roles"
+              class="inline-block text-gray-600 hover:text-green-500 my-4 w-full"
+            >
+              <span class="material-icons-outlined float-left pr-2"
+                >supervisor_account</span
+              >
+              Otorgar Roles
+              <span class="material-icons-outlined float-right"
+                >keyboard_arrow_right</span
+              >
+            </a>
+            <a
+              href="registro-pacientes-admin"
+              class="inline-block text-gray-600 hover:text-green-500 my-4 w-full"
+            >
+              <span class="material-icons-outlined float-left pr-2"
+                >manage_accounts</span
+              >
+              Registro de Pacientes
+              <span class="material-icons-outlined float-right"
+                >keyboard_arrow_right</span
+              >
+            </a>
+            <a
+              href="editar-usuarios"
+              class="inline-block text-gray-600 hover:text-green-500 my-4 w-full"
+            >
+              <span class="material-icons-outlined float-left pr-2">edit</span>
+              Editar Usuarios
+              <span class="material-icons-outlined float-right"
+                >keyboard_arrow_right</span
+              >
+            </a>
+          </div>
+
+          <div class="bg-white rounded-xl shadow-lg mb-6 px-6 py-4">
+            <a
+              href="ver-perfil-admin"
+              class="inline-block text-gray-600 hover:text-pink-500 my-4 w-full"
+            >
+              <span class="material-icons-outlined float-left pr-2"
+                >manage_accounts</span
+              >
+              Perfil
+              <span class="material-icons-outlined float-right"
+                >keyboard_arrow_right</span
+              >
+            </a>
+            <a
+              href="configuracion-admin"
+              class="inline-block text-gray-600 hover:text-black my-4 w-full"
+            >
+              <span class="material-icons-outlined float-left pr-2"
+                >settings</span
+              >
+              Ajustes
+              <span class="material-icons-outlined float-right"
+                >keyboard_arrow_right</span
+              >
+            </a>
+            <a
+              href="/auth/logout"
+              class="inline-block text-gray-600 hover:text-red-700 my-4 w-full"
+            >
+              <span class="material-icons-outlined float-left pr-2"
+                >power_settings_new</span
+              >
+              Desconectarse
+              <span class="material-icons-outlined float-right"
+                >keyboard_arrow_right</span
+              >
+            </a>
+          </div>
+        </div>
+
+        <div class="w-full lg:w-10/12 mt-6">
+          <div class="bg-green-200 rounded-xl shadow-lg p-6">
+
+            <!-- region MARK: TITULO -->
+            <h2
+              class="text-4xl font-semibold mb-4 text-gray-600 select-none hover:underline"
+            >
+              Editar Usuarios
+            </h2>
+
+            <!-- Contenedor del mensaje de persona editada correctamente -->
+            <div
+              id="successMessage"
+              class="hidden bg-green-500 text-white p-4 rounded-md mb-4"
+            ></div>
+            <!-- Contenedor del mensaje de error -->
+            <div
+              id="errorMessage"
+              class="hidden bg-red-500 text-white p-4 rounded-md mb-4"
+            ></div>
+
+            <table class="min-w-full bg-white">
+              <thead>
+                <tr>
+                  <th
+                    class="py-2 px-4 bg-gray-200 font-bold uppercase text-lg text-gray-600 border-b border-gray-200"
+                  >
+                    ROL
+                  </th>
+                  <th
+                    class="py-2 px-4 bg-gray-200 font-bold uppercase text-lg text-gray-600 border-b border-gray-200"
+                  >
+                    Username
+                  </th>
+                  <th
+                    class="py-2 px-4 bg-gray-200 font-bold uppercase text-lg text-gray-600 border-b border-gray-200"
+                  >
+                    Editar
+                  </th>
+                </tr>
+              </thead>
+              <tbody id="userTableBody">
+                <!-- listado de usuarios -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <<!-- region MARK: Modal de edición de usuario -->
+      <div
+        id="editUserModal"
+        class="fixed inset-0 bg-gray-500 bg-opacity-75 flex items-center justify-center hidden"
+      >
+        <div class="bg-white w-full md:max-w-md mx-auto rounded-lg shadow-lg">
+          <div class="p-6">
+            <h2 class="text-2xl font-semibold mb-4 text-gray-600">
+              Editar Usuario
+            </h2>
+            <form id="editUserForm" class="space-y-4">
+              <!--region MARK: Campos comunes -->
+              <div class="flex flex-wrap -mx-3 mb-6">
+                <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                  <label for="nombre" class="block text-gray-600"
+                    >Nombre:</label
+                  >
+                  <input
+                    type="text"
+                    id="nombre"
+                    name="nombre"
+                    class="border border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 w-full px-3 py-2 mt-1"
+                  />
+                </div>
+                <div class="w-full md:w-1/2 px-3">
+                  <label for="apellido" class="block text-gray-600"
+                    >Apellido:</label
+                  >
+                  <input
+                    type="text"
+                    id="apellido"
+                    name="apellido"
+                    class="border border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 w-full px-3 py-2 mt-1"
+                  />
+                </div>
+              </div>
+              <div class="flex flex-wrap -mx-3 mb-6">
+                <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                  <label for="documento" class="block text-gray-600"
+                    >Documento:</label
+                  >
+                  <input
+                    type="number"
+                    id="documento"
+                    name="documento"
+                    class="border border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 w-full px-3 py-2 mt-1"
+                  />
+                </div>
+                <div class="w-full md:w-1/2 px-3">
+                  <label for="fecha_nacimiento" class="block text-gray-600"
+                    >Fecha de Nacimiento:</label
+                  >
+                  <input
+                    type="date"
+                    id="fecha_nacimiento"
+                    name="fecha_nacimiento"
+                    class="border border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 w-full px-3 py-2 mt-1"
+                  />
+                </div>
+              </div>
+              <div class="flex flex-wrap -mx-3 mb-6">
+                <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                  <label for="sexo" class="block text-gray-600">Sexo:</label>
+                  <select
+                    id="sexo"
+                    name="sexo"
+                    class="border border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 w-full px-3 py-2 mt-1"
+                  >
+                    <option value="masculino">Masculino</option>
+                    <option value="femenino">Femenino</option>
+                  </select>
+                </div>
+                <div class="w-full md:w-1/2 px-3">
+                  <label for="telefono" class="block text-gray-600"
+                    >Teléfono:</label
+                  >
+                  <input
+                    type="tel"
+                    id="telefono"
+                    name="telefono"
+                    class="border border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 w-full px-3 py-2 mt-1"
+                  />
+                </div>
+              </div>
+              <!--region MARK: Campos segun el tipo de usuario -->
+              <div
+                id="obraSocialSection"
+                class="flex flex-wrap -mx-3 mb-6 hidden md:block"
+              >
+                <div class="w-full px-3">
+                  <label for="obra_social" class="block text-gray-600"
+                    >Obra Social:</label
+                  >
+                  <input
+                    type="text"
+                    id="obra_social"
+                    name="obra_social"
+                    class="border border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 w-full px-3 py-2 mt-1"
+                  />
+                </div>
+              </div>
+              <div
+                id="planSection"
+                class="flex flex-wrap -mx-3 mb-6 hidden md:block"
+              >
+                <div class="w-full px-3">
+                  <label for="plan" class="block text-gray-600">Plan:</label>
+                  <input
+                    type="text"
+                    id="plan"
+                    name="plan"
+                    class="border border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 w-full px-3 py-2 mt-1"
+                  />
+                </div>
+              </div>
+              <div
+                id="profesionSection"
+                class="flex flex-wrap -mx-3 mb-6 hidden md:block"
+              >
+                <div class="w-full px-3">
+                  <label for="profesion" class="block text-gray-600"
+                    >Profesión:</label
+                  >
+                  <input
+                    type="text"
+                    id="profesion"
+                    name="profesion"
+                    class="border border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 w-full px-3 py-2 mt-1"
+                  />
+                </div>
+              </div>
+              <div
+                id="especialidadSection"
+                class="flex flex-wrap -mx-3 mb-6 hidden md:block"
+              >
+                <div class="w-full px-3">
+                  <label for="especialidad" class="block text-gray-600"
+                    >Especialidad:</label
+                  >
+                  <input
+                    type="text"
+                    id="especialidad"
+                    name="especialidad"
+                    class="border border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 w-full px-3 py-2 mt-1"
+                  />
+                </div>
+              </div>
+              <div class="flex flex-wrap -mx-3 mb-6">
+                <div class="w-full px-3">
+                  <label for="domicilio" class="block text-gray-600"
+                    >Domicilio:</label
+                  >
+                  <input
+                    type="text"
+                    id="domicilio"
+                    name="domicilio"
+                    class="border border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 w-full px-3 py-2 mt-1"
+                  />
+                </div>
+              </div>
+              <div
+                id="matriculaSection"
+                class="flex flex-wrap -mx-3 mb-6 hidden md:block"
+              >
+                <div class="w-full px-3">
+                  <label for="matricula" class="block text-gray-600"
+                    >Matrícula:</label
+                  >
+                  <input
+                    type="text"
+                    id="matricula"
+                    name="matricula"
+                    class="border border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 w-full px-3 py-2 mt-1"
+                  />
+                </div>
+              </div>
+              <div
+                id="idRefepsSection"
+                class="flex flex-wrap -mx-3 mb-6 hidden md:block"
+              >
+                <div class="w-full px-3">
+                  <label for="id_refeps" class="block text-gray-600"
+                    >ID RefEPS:</label
+                  >
+                  <input
+                    type="number"
+                    id="id_refeps"
+                    name="id_refeps"
+                    class="border border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 w-full px-3 py-2 mt-1"
+                  />
+                </div>
+              </div>
+              <div
+                id="fechaCaducidadSection"
+                class="flex flex-wrap -mx-3 mb-6 hidden md:block"
+              >
+                <div class="w-full px-3">
+                  <label for="fecha_caducidad" class="block text-gray-600"
+                    >Fecha de Caducidad:</label
+                  >
+                  <input
+                    type="date"
+                    id="fecha_caducidad"
+                    name="fecha_caducidad"
+                    class="border border-gray-300 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 w-full px-3 py-2 mt-1"
+                  />
+                </div>
+              </div>
+
+              <!--region MARK: Botones -->
+              <div class="flex justify-end">
+                <button
+                  type="submit"
+                  class="bg-purple-500 text-white px-4 py-2 rounded hover:bg-purple-700"
+                >
+                  Guardar Cambios
+                </button>
+                <button
+                  type="button"
+                  onclick="closeEditUserModal()"
+                  class="ml-2 bg-gray-300 text-gray-700 px-4 py-2 rounded hover:bg-gray-400"
+                >
+                  Cancelar
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+        <!-- region MARK: SCRIPT -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const profileImage = document.getElementById("profileImage");
+        const dropdownMenu = document.getElementById("dropdownMenu");
+
+        profileImage.addEventListener("click", function () {
+          dropdownMenu.classList.toggle("hidden");
+        });
+
+        window.addEventListener("click", function (e) {
+          if (
+            !profileImage.contains(e.target) &&
+            !dropdownMenu.contains(e.target)
+          ) {
+            dropdownMenu.classList.add("hidden");
+          }
+        });
+      });
+
+      document
+        .getElementById("editUserForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          const userId = currentUserId;
+
+          // Determinar que campos deben enviarse segun el rol del usuario
+          let fieldsToInclude;
+          if (currentUserRole === "paciente") {
+            fieldsToInclude = [
+              "nombre",
+              "apellido",
+              "documento",
+              "fecha_nacimiento",
+              "sexo",
+              "obra_social",
+              "plan",
+              "telefono",
+            ];
+          } else if (currentUserRole === "medico") {
+            fieldsToInclude = [
+              "nombre",
+              "apellido",
+              "documento",
+              "profesion",
+              "especialidad",
+              "domicilio",
+              "matricula",
+              "id_refeps",
+              "fecha_caducidad",
+              "telefono",
+            ];
+          } else {
+            console.error("Rol de usuario desconocido:", currentUserRole);
+            return;
+          }
+
+          const formData = new FormData(this);
+          const data = {};
+
+          // Filtrar solo los campos relevantes para enviar
+          formData.forEach((value, key) => {
+            if (fieldsToInclude.includes(key)) {
+              data[key] = value;
+            }
+          });
+
+          // Determinar la URL correcta basándonos en el rol
+          let url;
+          if (currentUserRole === "paciente") {
+            url = `/pacientes/${userId}`;
+          } else if (currentUserRole === "medico") {
+            url = `/profesionales/${userId}`;
+          }
+
+          fetch(url, {
+            method: "PUT",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify(data),
+          })
+            .then((response) => {
+              if (!response.ok) {
+                throw new Error("Error en la actualización del usuario");
+              }
+              return response.json();
+            })
+            .then((data) => {
+              const successMessage = document.getElementById("successMessage");
+              successMessage.textContent = "Usuario actualizado con éxito";
+              successMessage.classList.remove("hidden");
+              setTimeout(() => {
+                successMessage.classList.add("hidden");
+              }, 3000); 
+              closeEditUserModal();
+              fetchUsers();
+            })
+            .catch((error) => {
+              const errorMessage = document.getElementById("errorMessage");
+              errorMessage.textContent = "Error al actualizar el usuario";
+              errorMessage.classList.remove("hidden");
+              setTimeout(() => {
+                errorMessage.classList.add("hidden");
+              }, 3000);
+              console.error("Error al actualizar el usuario:", error);
+            });
+        });
+      let currentUserId = null;
+      let currentUserRole = null;
+      function showEditUserModal(user_id, role) {
+        currentUserId = user_id;
+        currentUserRole = role;
+        let url;
+        if (role === "paciente") {
+          url = `/api/users/${user_id}`;
+          document.getElementById("obraSocialSection").style.display = "block";
+          document.getElementById("planSection").style.display = "block";
+          document.getElementById("profesionSection").style.display = "none";
+          document.getElementById("especialidadSection").style.display = "none";
+          document.getElementById("matriculaSection").style.display = "none";
+          document.getElementById("idRefepsSection").style.display = "none";
+          document.getElementById("fechaCaducidadSection").style.display =
+            "none";
+        } else if (role === "medico") {
+          url = `/profesionales/${user_id}`;
+          document.getElementById("obraSocialSection").style.display = "none";
+          document.getElementById("planSection").style.display = "none";
+          document.getElementById("profesionSection").style.display = "block";
+          document.getElementById("especialidadSection").style.display =
+            "block";
+          document.getElementById("matriculaSection").style.display = "block";
+          document.getElementById("idRefepsSection").style.display = "block";
+          document.getElementById("fechaCaducidadSection").style.display =
+            "block";
+        }
+
+        fetch(url)
+          .then((response) => {
+            if (!response.ok) {
+              throw new Error(
+                `Network response was not ok (Status: ${response.status})`
+              );
+            }
+            return response.json();
+          })
+          .then((user) => {
+            const editUserModal = document.getElementById("editUserModal");
+            editUserModal.classList.remove("hidden");
+
+            document.getElementById("nombre").value = user.nombre || "";
+            document.getElementById("apellido").value = user.apellido || "";
+            document.getElementById("documento").value = user.documento || "";
+            document.getElementById("fecha_nacimiento").value =
+              user.fecha_nacimiento || "";
+            document.getElementById("sexo").value = user.sexo || "";
+            document.getElementById("obra_social").value =
+              user.obra_social || "";
+            document.getElementById("plan").value = user.plan || "";
+            document.getElementById("telefono").value = user.telefono || "";
+            document.getElementById("profesion").value = user.profesion || "";
+            document.getElementById("especialidad").value =
+              user.especialidad || "";
+            document.getElementById("domicilio").value = user.domicilio || "";
+            document.getElementById("matricula").value = user.matricula || "";
+            document.getElementById("id_refeps").value = user.id_refeps || "";
+            document.getElementById("fecha_caducidad").value =
+              user.fecha_caducidad || "";
+          })
+          .catch((error) => {
+            console.error("Error fetching user details:", error);
+          });
+      }
+
+      function closeEditUserModal() {
+        const editUserModal = document.getElementById("editUserModal");
+        editUserModal.classList.add("hidden");
+      }
+
+      async function fetchUsers() {
+        try {
+          const response = await fetch("/api/users");
+          if (!response.ok) {
+            throw new Error(
+              "Network response was not ok " + response.statusText
+            );
+          }
+          const users = await response.json();
+          const userTableBody = document.getElementById("userTableBody");
+          userTableBody.innerHTML = "";
+          users.forEach((user) => {
+            const row = document.createElement("tr");
+            row.innerHTML = `
+                              <td class="py-2 px-4 border-b border-gray-200 text-center">${user.role}</td>
+                              <td class="py-2 px-4 border-b border-gray-200 text-center">${user.username}</td>
+                              <td class="py-2 px-4 border-b border-gray-200 text-center">
+                                <button onclick="showEditUserModal(${user.user_id}, '${user.role}')" class="bg-purple-500 text-white px-2 py-1 rounded hover:bg-purple-900">Editar Usuario</button>
+                              </td>
+                            `;
+            userTableBody.appendChild(row);
+          });
+        } catch (error) {
+          console.error("Error fetching users:", error);
+        }
+      }
+      window.onload = fetchUsers;
+    </script>
+  </body>
+</html>

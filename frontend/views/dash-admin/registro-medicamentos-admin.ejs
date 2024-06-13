@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.2/dist/tailwind.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://i.ibb.co/T4NYsZv/subirlogo.png"
+      type="image/x-icon"
+    />
+    <title>Admin - Hospital Ramon Carrillo</title>
+</head>
+<body>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Outfit:wght@100..900&display=swap");
+
+      html,
+      body {
+        font-family: "Outfit", sans-serif;
+        min-height: 100%;
+        background-color: rgb(215, 234, 250);
+      }
+      .rounded-xl {
+        border-radius: 2rem;
+      }
+    </style>
+    <div class="bg-blue-100 min-h-screen text-sm">
+    <div class="fixed bg-white text-blue-800 px-10 py-1 z-10 w-full">
+        <div class="flex items-center justify-between py-2">
+            <img
+            src="https://i.ibb.co/9nzzWPZ/subirlogo2.png"
+            alt="Logo"
+            class="h-14 w-auto"
+            draggable="false"
+            />
+            <div class="flex items-center text-gray-500 relative">
+            <div
+                id="profileImage"
+                class="bg-center bg-cover bg-no-repeat rounded-full inline-block h-12 w-12 ml-2 cursor-pointer"
+            >
+                <span
+                class="material-icons"
+                style="font-size: 42px; font-weight: 600"
+                >face</span
+                >
+            </div>
+
+            <!-- Menú desplegable -->
+            <div
+                id="dropdownMenu"
+                class="absolute right-0 mt-14 w-48 bg-white rounded-md shadow-lg z-10 hidden md:right-10 md:mt-12"
+            >
+                <ul class="py-1">
+                <li>
+                    <a
+                    href="ver-perfil-admin"
+                    class="block px-4 py-2 text-gray-800 hover:bg-gray-200"
+                    >Perfil</a
+                    >
+                </li>
+                <li>
+                    <a
+                    href="configuracion-admin"
+                    class="block px-4 py-2 text-gray-800 hover:bg-gray-200"
+                    >Configuración</a
+                    >
+                </li>
+                <li>
+                    <a
+                    href="/auth/logout"
+                    class="block px-4 py-2 text-gray-800 hover:bg-gray-200"
+                    >Cerrar sesión</a
+                    >
+                </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="flex flex-col lg:flex-row pt-24 px-10 pb-4 text-base">
+        <div class="w-full lg:w-2/12 mt-6 mr-6">
+        <div class="bg-white rounded-xl shadow-lg mb-6 px-6 py-4">
+            <a href="dashboard-admin" class="inline-block text-gray-600 hover:text-blue-500 my-4 w-full">
+                <span class="material-icons-outlined float-left pr-2">home</span>
+                Inicio
+                <span class="material-icons-outlined float-right">keyboard_arrow_right</span>
+            </a>
+            <a href="historial-recetas-admin" class="inline-block text-gray-600 hover:text-green-500 my-4 w-full">
+                <span class="material-icons-outlined float-left pr-2">file_copy</span>
+                Historial de Recetas
+                <span class="material-icons-outlined float-right">keyboard_arrow_right</span>
+            </a>
+            <a href="registro-medicamentos-admin" class="inline-block text-gray-600 hover:text-green-500 my-4 w-full">
+                <span class="material-icons-outlined float-left pr-2">manage_search</span>
+                Registro de Medicamentos
+                <span class="material-icons-outlined float-right">keyboard_arrow_right</span>
+            </a>
+            <a href="otorgar-roles" class="inline-block text-gray-600 hover:text-green-500 my-4 w-full">
+                <span class="material-icons-outlined float-left pr-2">supervisor_account</span>
+                Otorgar Roles
+                <span class="material-icons-outlined float-right">keyboard_arrow_right</span>
+            </a>
+            <a href="registro-pacientes-admin" class="inline-block text-gray-600 hover:text-green-500 my-4 w-full">
+                <span class="material-icons-outlined float-left pr-2">manage_accounts</span>
+                Registro de Pacientes
+                <span class="material-icons-outlined float-right">keyboard_arrow_right</span>
+            </a>
+            <a href="editar-usuarios" class="inline-block text-gray-600 hover:text-green-500 my-4 w-full">
+                <span class="material-icons-outlined float-left pr-2">edit</span>
+                Editar Usuarios
+                <span class="material-icons-outlined float-right">keyboard_arrow_right</span>
+            </a>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-lg mb-6 px-6 py-4">
+            <a
+                href="ver-perfil"
+                class="inline-block text-gray-600 hover:text-pink-500 my-4 w-full"
+            >
+                <span class="material-icons-outlined float-left pr-2"
+                >manage_accounts</span
+                >
+                Perfil
+                <span class="material-icons-outlined float-right"
+                >keyboard_arrow_right</span
+                >
+            </a>
+            <a
+                href="configuracion"
+                class="inline-block text-gray-600 hover:text-black my-4 w-full"
+            >
+                <span class="material-icons-outlined float-left pr-2"
+                >settings</span
+                >
+                Ajustes
+                <span class="material-icons-outlined float-right"
+                >keyboard_arrow_right</span
+                >
+            </a>
+            <a
+                href="/auth/logout"
+                class="inline-block text-gray-600 hover:text-red-700 my-4 w-full"
+            >
+                <span class="material-icons-outlined float-left pr-2"
+                >power_settings_new</span
+                >
+                Desconectarse
+                <span class="material-icons-outlined float-right"
+                >keyboard_arrow_right</span
+                >
+            </a>
+        </div>
+        </div>
+
+        <div class="w-full lg:w-10/12 mt-6">
+            <div class="bg-green-200 rounded-xl shadow-lg mb-6 px-6 py-4">
+                <h2 class="text-4xl text-center font-semibold text-purple-700 mb-6 select-none hover:underline">Registro de Medicamentos</h2>
+                <div class="flex items-center justify-center">
+                <form class="max-w-md pb-6 flex flex-col text-center">
+                    <h3 class="text-3xl font-semibold text-gray-700 mb-4 select-none hover:underline">Buscar Medicamento</h3>
+                    <label for="default-search" class="sr-only">Buscar</label>
+                    <div class="relative flex items-center">
+                        <input
+                        type="search"
+                        id="buscarMedicamento"
+                        class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder="Buscar Medicamento..."
+                        required
+                        />
+                        <button
+                        type="submit"
+                        class="text-white absolute right-2.5 top-2.5 bg-purple-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                        >
+                        Buscar
+                        </button>
+                        <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        x="0px"
+                        y="0px"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        class="absolute left-3 text-gray-400 dark:text-gray-300"
+                        >
+                        <path
+                            d="M 9 2 C 5.1458514 2 2 5.1458514 2 9 C 2 12.854149 5.1458514 16 9 16 C 10.747998 16 12.345009 15.348024 13.574219 14.28125 L 14 14.707031 L 14 16 L 19.585938 21.585938 C 20.137937 22.137937 21.033938 22.137938 21.585938 21.585938 C 22.137938 21.033938 22.137938 20.137938 21.585938 19.585938 L 16 14 L 14.707031 14 L 14.28125 13.574219 C 15.348024 12.345009 16 10.747998 16 9 C 16 5.1458514 12.854149 2 9 2 z M 9 4 C 11.773268 4 14 6.2267316 14 9 C 14 11.773268 11.773268 14 9 14 C 6.2267316 14 4 11.773268 4 9 C 4 6.2267316 6.2267316 4 9 4 z"
+                        ></path>
+                        </svg>
+                    </div>
+                </form>
+                </div>
+                <!-- Botón para abrir el modal -->
+                <div class="flex justify-end mt-4">
+                    <button
+                    id="abrirModal2"
+                    class="text-white bg-blue-500 hover:bg-blue-700 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                    >
+                    Agregar Nuevo Medicamento
+                    </button>
+                </div>
+
+                <!-- Modal de Agregar Medicamento -->
+                 <!-- Modal -->
+    <div id="modal2" class="fixed inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full hidden">
+        <div class="relative top-20 mx-auto p-5 border w-96 shadow-lg rounded-md bg-white">
+            <div class="mt-3 text-center">
+                <h3 class="text-lg leading-6 font-medium text-gray-900">Registrar Nuevo Medicamento</h3>
+                <div class="mt-2 px-7 py-3">
+                    <form id="formMedicamento">
+                        <div class="mb-4">
+                            <label for="nombre_generico" class="block text-gray-700 text-sm font-bold mb-2">Nombre Genérico:</label>
+                            <input type="text" id="nombre_generico" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required />
+                        </div>
+                        <div class="mb-4">
+                            <label for="concentracion" class="block text-gray-700 text-sm font-bold mb-2">Concentración:</label>
+                            <input type="text" id="concentracion" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required />
+                        </div>
+                        <div class="mb-4">
+                            <label for="forma_farmaceutica" class="block text-gray-700 text-sm font-bold mb-2">Forma Farmacéutica:</label>
+                            <input type="text" id="forma_farmaceutica" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required />
+                        </div>
+                        <div class="mb-4">
+                            <label for="presentacion" class="block text-gray-700 text-sm font-bold mb-2">Presentación:</label>
+                            <input type="text" id="presentacion" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required />
+                        </div>
+                        <div class="mb-4">
+                            <label for="nombre_comercial" class="block text-gray-700 text-sm font-bold mb-2">Nombre Comercial:</label>
+                            <input type="text" id="nombre_comercial" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required />
+                        </div>
+                        <div class="mb-4">
+                            <label for="categoria" class="block text-gray-700 text-sm font-bold mb-2">Categoría:</label>
+                            <input type="text" id="categoria" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required />
+                        </div>
+                        <div class="mb-4">
+                            <label for="familia" class="block text-gray-700 text-sm font-bold mb-2">Familia:</label>
+                            <input type="text" id="familia" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required />
+                        </div>
+                        <div class="mb-4">
+                            <label for="imagen_url" class="block text-gray-700 text-sm font-bold mb-2">URL de la Imagen:</label>
+                            <input type="text" id="imagen_url" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required />
+                        </div>
+                        <div class="flex justify-center">
+                            <button
+                                type="submit"
+                                class="text-white bg-green-500 hover:bg-green-700 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                            >
+                                Registrar
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="items-center px-4 py-3">
+                    <button
+                        id="cerrarModal2"
+                        class="px-4 py-2 bg-gray-500 text-white text-base font-medium rounded-md w-full shadow-sm hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-300"
+                    >
+                        Cancelar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+                <div id="mensaje" class="hidden bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative" role="alert"></div>
+
+                <div class="mt-6">
+                    <h3 class="text-lg text-left font-semibold text-gray-700 mb-4">Lista de Medicamentos Registrados</h3>
+                    <div id="listaMedicamentos" class="overflow-x-auto">
+                        <table class="min-w-full bg-white">
+                            <thead>
+                                <tr>
+                                    <th class="px-4 py-2 text-purple-500">Nombre Genérico</th>
+                                    <th class="px-4 py-2 text-purple-500">Nombre Comercial</th>
+                                    <th class="px-4 py-2 text-purple-500">Concentración</th>
+                                    <th class="px-4 py-2 text-purple-500">Forma Farmacéutica</th>
+                                    <th class="px-4 py-2 text-purple-500">Presentación</th>
+                                    <th class="px-4 py-2 text-purple-500">Categoría</th>
+                                    <th class="px-4 py-2 text-purple-500">Familia</th>
+                                    <th class="px-4 py-2 text-purple-500">Estado</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <% medicamentos.forEach(function(medicamento) { %>
+                                <tr class="hover:bg-purple-300 cursor-pointer text-center" data-id="<%= medicamento.medicamento_id %>">
+                                    <td class="border px-4 py-2"><%= medicamento.nombre_generico %></td>
+                                    <td class="border px-4 py-2"><%= medicamento.nombre_comercial %></td>
+                                    <td class="border px-4 py-2"><%= medicamento.concentracion %></td>
+                                    <td class="border px-4 py-2"><%= medicamento.forma_farmaceutica %></td>
+                                    <td class="border px-4 py-2"><%= medicamento.presentacion %></td>
+                                    <td class="border px-4 py-2"><%= medicamento.categoria %></td>
+                                    <td class="border px-4 py-2"><%= medicamento.familia %></td>
+                                    <td class="border px-4 py-2" id="estado_<%= medicamento.medicamento_id %>"><%= medicamento.Deshabilitado ? 'Habilitado' : 'Habilitado' %></td>
+                                </tr>
+                                <% }); %>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>    
+    </div>
+
+    <div id="detalleModal" class="fixed inset-0 bg-black bg-opacity-60 hidden flex justify-center items-center z-50">
+        <div class="bg-white rounded-lg p-8 w-full max-w-2xl">
+            <h2 class="text-2xl font-bold mb-4">Detalle del Medicamento</h2>
+            <div id="modalContent">
+            <p>Cargando detalles...</p>
+            </div>
+            <div class="flex justify-end space-x-4 mt-4">
+            <button id="habilitarBtn" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">Habilitar</button>
+            <button id="deshabilitarBtn" class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded">Deshabilitar</button>
+            <button id="editarBtn" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Editar</button>
+            <button id="eliminarBtn" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Eliminar</button>
+            <button id="cerrarModal" class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded">Cerrar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Edición -->
+    <div id="editarModal" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 hidden">
+        <div class="bg-white p-6 rounded-lg shadow-lg w-96">
+            <h2 class="text-xl font-semibold mb-4">Editar Medicamento</h2>
+            <form id="editarFormulario">
+                <div class="mb-4">
+                    <label for="nombreGenerico" class="block text-gray-700">Nombre Genérico:</label>
+                    <input type="text" id="nombreGenerico" name="nombreGenerico" class="w-full px-3 py-2 border rounded" required>
+                </div>
+                <div class="mb-4">
+                    <label for="nombreComercial" class="block text-gray-700">Nombre Comercial:</label>
+                    <input type="text" id="nombreComercial" name="nombreComercial" class="w-full px-3 py-2 border rounded" required>
+                </div>
+                <div class="mb-4">
+                    <label for="concentracion" class="block text-gray-700">Concentración:</label>
+                    <input type="text" id="concentracion" name="concentracion" class="w-full px-3 py-2 border rounded" required>
+                </div>
+                <div class="mb-4">
+                    <label for="formaFarmaceutica" class="block text-gray-700">Forma Farmacéutica:</label>
+                    <input type="text" id="formaFarmaceutica" name="formaFarmaceutica" class="w-full px-3 py-2 border rounded" required>
+                </div>
+                <div class="mb-4">
+                    <label for="presentacion" class="block text-gray-700">Presentación:</label>
+                    <input type="text" id="presentacion" name="presentacion" class="w-full px-3 py-2 border rounded" required>
+                </div>
+                <div class="mb-4">
+                    <label for="categoria" class="block text-gray-700">Categoría:</label>
+                    <input type="text" id="categoria" name="categoria" class="w-full px-3 py-2 border rounded" required>
+                </div>
+                <div class="mb-4">
+                    <label for="familia" class="block text-gray-700">Familia:</label>
+                    <input type="text" id="familia" name="familia" class="w-full px-3 py-2 border rounded" required>
+                </div>
+                <div class="mb-4">
+                    <label for="imagenUrl" class="block text-gray-700">URL de la Imagen:</label>
+                    <input type="url" id="imagenUrl" name="imagenUrl" class="w-full px-3 py-2 border rounded" required>
+                </div>
+                <div class="flex justify-end">
+                    <button type="button" id="cancelarEdicionBtn" class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded mr-2">Cancelar</button>
+                    <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Confirmar edición</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Mensaje de notificación -->
+    <div id="mensaje" class="hidden"></div>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+    const buscarMedicamentoInput = document.getElementById("buscarMedicamento");
+    const profileImage = document.getElementById("profileImage");
+    const dropdownMenu = document.getElementById("dropdownMenu");
+    const mensajeDiv = document.getElementById("mensaje");
+
+    profileImage.addEventListener("click", function () {
+        dropdownMenu.classList.toggle("hidden");
+    });
+
+    document.addEventListener("click", function (event) {
+        if (!profileImage.contains(event.target) && !dropdownMenu.contains(event.target)) {
+            dropdownMenu.classList.add("hidden");
+        }
+    });
+
+    buscarMedicamentoInput.addEventListener("input", function () {
+        const query = buscarMedicamentoInput.value.toLowerCase();
+        const medicamentos = document.querySelectorAll("#listaMedicamentos tbody tr");
+
+        medicamentos.forEach(function (medicamento) {
+            const nombreComercial = medicamento.children[1].textContent.toLowerCase();
+            const nombreGenerico = medicamento.children[0].textContent.toLowerCase();
+
+            if (nombreComercial.includes(query) || nombreGenerico.includes(query)) {
+                medicamento.style.display = "";
+            } else {
+                medicamento.style.display = "none";
+            }
+        });
+    });
+
+    const medicamentoRows = document.querySelectorAll("#listaMedicamentos tbody tr");
+    const detalleModal = document.getElementById("detalleModal");
+    const modalContent = document.getElementById("modalContent");
+    const cerrarModal = document.getElementById("cerrarModal");
+    const editarModal = document.getElementById("editarModal");
+
+    let currentMedicamentoId = null;
+
+    medicamentoRows.forEach(function (row) {
+        row.addEventListener("click", function () {
+            const medicamentoId = row.getAttribute("data-id");
+            currentMedicamentoId = medicamentoId;
+            fetch(`/medicamentos/${medicamentoId}`)
+                .then((response) => {
+                    if (!response.ok) {
+                        throw new Error("Error al obtener el medicamento");
+                    }
+                    return response.json();
+                })
+                .then((data) => {
+                    modalContent.innerHTML = `
+                    <div class="grid grid-cols-2 gap-4 text-base">
+                        <div>
+                            <div class="flex items-center">
+                                <span class="text-lg font-semibold text-gray-700">Nombre Genérico:</span>
+                                <span class="text-gray-900">${data.nombre_generico}</span>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="font-semibold text-gray-700">Nombre Comercial:</span>
+                                <span class="text-gray-900">${data.nombre_comercial}</span>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="font-semibold text-gray-700">Concentración:</span>
+                                <span class="text-gray-900">${data.concentracion}</span>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="font-semibold text-gray-700">Forma Farmacéutica:</span>
+                                <span class="text-gray-900">${data.forma_farmaceutica}</span>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="font-semibold text-gray-700">Presentación:</span>
+                                <span class="text-gray-900">${data.presentacion}</span>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="font-semibold text-gray-700">Categoría:</span>
+                                <span class="text-gray-900">${data.categoria}</span>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="font-semibold text-gray-700">Familia:</span>
+                                <span class="text-gray-900">${data.familia}</span>
+                            </div>
+                        </div>
+                        <div class="flex justify-center items-center">
+                            <img src="${data.imagen_url}" alt="Imagen del Medicamento" class="w-60 h-auto">
+                        </div>
+                    </div>
+                    `;
+                    detalleModal.classList.remove("hidden");
+
+                    // Event listeners para los botones del modal
+                    document.getElementById("habilitarBtn").addEventListener("click", habilitarMedicamento);
+                    document.getElementById("deshabilitarBtn").addEventListener("click", deshabilitarMedicamento);
+                    document.getElementById("eliminarBtn").addEventListener("click", eliminarMedicamento);
+                    document.getElementById("editarBtn").addEventListener("click", editarMedicamento);
+                    
+                    function habilitarMedicamento() {
+                        fetch(`/medicamentos/enable/${medicamentoId}`, { method: 'PUT' })
+                            .then(response => {
+                                if (!response.ok) throw new Error('Error al habilitar el medicamento');
+                                return response.json();
+                            })
+                            .then(() => {
+                                actualizarEstado(medicamentoId, true);
+                                mostrarMensaje('Medicamento habilitado con éxito', 'green');
+                                detalleModal.classList.add("hidden");
+                            })
+                            .catch(error => mostrarMensaje(error.message, 'red'));
+                    }
+
+                    function deshabilitarMedicamento() {
+                        fetch(`/medicamentos/disable/${medicamentoId}`, { method: 'PUT' })
+                            .then(response => {
+                                if (!response.ok) throw new Error('Error al deshabilitar el medicamento');
+                                return response.json();
+                            })
+                            .then(() => {
+                                actualizarEstado(medicamentoId, false);
+                                mostrarMensaje('Medicamento deshabilitado con éxito', 'yellow');
+                                detalleModal.classList.add("hidden");
+                            })
+                            .catch(error => mostrarMensaje(error.message, 'red'));
+                    }
+
+                    function eliminarMedicamento() {
+                        fetch(`/medicamentos/${medicamentoId}`, { method: 'DELETE' })
+                            .then(response => {
+                                if (!response.ok) throw new Error('Error al eliminar el medicamento');
+                                return response.json();
+                            })
+                            .then(() => {
+                                eliminarMedicamentoDeLaLista(medicamentoId);
+                                mostrarMensaje('Medicamento eliminado con éxito', 'red');
+                                detalleModal.classList.add("hidden");
+                            })
+                            .catch(error => mostrarMensaje(error.message, 'red'));
+                    }
+
+                    function editarMedicamento() {
+                        detalleModal.classList.add("hidden");
+                        editarModal.classList.remove("hidden");
+                        document.getElementById("nombreGenerico").value = data.nombre_generico;
+                        document.getElementById("nombreComercial").value = data.nombre_comercial;
+                        document.getElementById("concentracion").value = data.concentracion;
+                        document.getElementById("formaFarmaceutica").value = data.forma_farmaceutica;
+                        document.getElementById("presentacion").value = data.presentacion;
+                        document.getElementById("categoria").value = data.categoria;
+                        document.getElementById("familia").value = data.familia;
+                        document.getElementById("imagenUrl").value = data.imagen_url;
+                    }
+                    
+                })
+                .catch((error) => {
+                    modalContent.innerHTML = `<p>Error al cargar los detalles del medicamento.</p>`;
+                    detalleModal.classList.remove("hidden");
+                });
+        });
+    });
+
+    cerrarModal.addEventListener("click", function () {
+        detalleModal.classList.add("hidden");
+    });
+
+    document.getElementById("cancelarEdicionBtn").addEventListener("click", function () {
+        editarModal.classList.add("hidden");
+    });
+
+    // Event listener para el formulario de edición no funciona en este momento
+    /*
+    document.getElementById("confirmarEdicionBtn").addEventListener("click", function () {
+        const medicamentoData = {
+            nombre_generico: document.getElementById("nombreGenerico").value,
+            nombre_comercial: document.getElementById("nombreComercial").value,
+            concentracion: document.getElementById("concentracion").value,
+            forma_farmaceutica: document.getElementById("formaFarmaceutica").value,
+            presentacion: document.getElementById("presentacion").value,
+            categoria: document.getElementById("categoria").value,
+            familia: document.getElementById("familia").value,
+            imagen_url: document.getElementById("imagenUrl").value
+        };
+
+        fetch(`/medicamentos/${currentMedicamentoId}`, {
+            method: 'PUT',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(medicamentoData)
+        })
+        .then(response => {
+            if (!response.ok) throw new Error('Error al actualizar el medicamento');
+            return response.json();
+        })
+        .then(() => {
+            mostrarMensaje('Medicamento actualizado', 'green');
+            editarModal.classList.add("hidden");
+            location.reload();
+        })
+        .catch(error => mostrarMensaje(error.message, 'red'));
+    });
+    */
+    function actualizarEstado(medicamentoId, habilitado) {
+        const estadoElemento = document.getElementById(`estado_${medicamentoId}`);
+        if (estadoElemento) {
+            estadoElemento.textContent = habilitado ? 'Habilitado' : 'Deshabilitado';
+        } else {
+            console.error(`Elemento con ID estado_${medicamentoId} no encontrado`);
+        }
+    }
+
+    function eliminarMedicamentoDeLaLista(medicamentoId) {
+        const medicamentoRow = document.querySelector(`#listaMedicamentos tbody tr[data-id="${medicamentoId}"]`);
+        if (medicamentoRow) {
+            medicamentoRow.remove();
+        } else {
+            console.error(`Fila con ID medicamento ${medicamentoId} no encontrada`);
+        }
+    }
+
+    function mostrarMensaje(mensaje, color) {
+        mensajeDiv.textContent = mensaje;
+        mensajeDiv.className = `bg-${color}-100 border border-${color}-400 text-${color}-700 px-4 py-3 rounded relative`;
+        mensajeDiv.classList.remove("hidden");
+        setTimeout(() => {
+            mensajeDiv.classList.add("hidden");
+        }, 3000);
+    }
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+        const abrirModal2 = document.getElementById("abrirModal2");
+        const cerrarModal2 = document.getElementById("cerrarModal2");
+        const modal2 = document.getElementById("modal2");
+        const formMedicamento = document.getElementById("formMedicamento");
+
+        abrirModal2.addEventListener("click", function() {
+            modal2.classList.remove("hidden");
+        });
+
+        cerrarModal2.addEventListener("click", function() {
+            modal2.classList.add("hidden");
+        });
+
+        formMedicamento.addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            const medicamento = {
+                nombre_generico: document.getElementById("nombre_generico").value,
+                concentracion: document.getElementById("concentracion").value,
+                forma_farmaceutica: document.getElementById("forma_farmaceutica").value,
+                presentacion: document.getElementById("presentacion").value,
+                nombre_comercial: document.getElementById("nombre_comercial").value,
+                categoria: document.getElementById("categoria").value,
+                familia: document.getElementById("familia").value,
+                imagen_url: document.getElementById("imagen_url").value
+            };
+
+            fetch('/medicamentos/', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(medicamento)
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Success:', data);
+                modal2.classList.add("hidden");
+                formMedicamento.reset();
+                document.getElementById("mensaje").innerHTML = "Medicamento creado con éxito";
+                document.getElementById("mensaje").classList.remove("hidden");
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+                document.getElementById("mensaje").innerHTML = "Error al crear el medicamento";
+                document.getElementById("mensaje").classList.remove("hidden");
+            });
+        });
+    });
+
+    </script>
+    </body>
+</html>

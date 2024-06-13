@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.2/dist/tailwind.min.css"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://i.ibb.co/T4NYsZv/subirlogo.png"
+      type="image/x-icon"
+    />
+    <title>Personal de Salud - Hospital Ramon Carrillo</title>
+  </head>
+  <body>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Outfit:wght@100..900&display=swap");
+      html,
+      body {
+        font-family: "Outfit", sans-serif;
+        min-height: 100%;
+        background-color: rgb(215, 234, 250);
+      }
+
+      .rounded-xl {
+        border-radius: 2rem;
+      }
+    </style>
+
+    <!-- #region MARK: MENU ICONO -->
+
+    <div class="bg-orange-100 min-h-screen text-sm">
+      <div class="fixed bg-white text-blue-800 px-10 py-1 z-10 w-full">
+        <div class="flex items-center justify-between py-2">
+          <img
+            src="https://i.ibb.co/9nzzWPZ/subirlogo2.png"
+            alt="Logo"
+            class="h-14 w-auto"
+            draggable="false"
+          />
+          <div class="flex items-center text-gray-500 relative">
+            <div
+              id="profileImage"
+              class="bg-center bg-cover bg-no-repeat rounded-full inline-block h-12 w-16 ml-2 cursor-pointer"
+            >
+              <span
+                class="material-icons"
+                style="font-size: 42px; font-weight: 600"
+                >face</span
+              >
+            </div>
+            <div
+              id="dropdownMenu"
+              class="absolute right-0 mt-14 w-48 bg-white rounded-md shadow-lg z-10 hidden md:right-10 md:mt-12"
+            >
+              <ul class="py-1">
+                <li>
+                  <a
+                    href="ver-perfil"
+                    class="block px-4 py-2 text-gray-800 hover:bg-gray-200"
+                    >Perfil</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="configuracion"
+                    class="block px-4 py-2 text-gray-800 hover:bg-gray-200"
+                    >Configuración</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="/auth/logout"
+                    class="block px-4 py-2 text-gray-800 hover:bg-gray-200"
+                    >Cerrar sesión</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- #region MARK: MENU SIDE BAR -->
+      <div class="flex flex-col lg:flex-row pt-24 px-10 pb-4 text-base">
+        <div class="w-full lg:w-2/12 mt-6 mr-6">
+          <div class="bg-white rounded-xl shadow-lg mb-6 px-6 py-4">
+            <a
+              href="dashboard"
+              class="inline-block text-gray-600 hover:text-blue-500 my-4 w-full"
+            >
+              <span class="material-icons-outlined float-left pr-2">home</span>
+              Inicio
+              <span class="material-icons-outlined float-right"
+                >keyboard_arrow_right</span
+              >
+            </a>
+            <a
+              href="prescripcion"
+              class="inline-block text-gray-600 hover:text-yellow-500 my-4 w-full"
+            >
+              <span class="material-icons-outlined float-left pr-2"
+                >border_color</span
+              >
+              Prescribir
+              <span class="material-icons-outlined float-right"
+                >keyboard_arrow_right</span
+              >
+            </a>
+            <a
+              href="historial-recetas"
+              class="inline-block text-gray-600 hover:text-green-500 my-4 w-full"
+            >
+              <span class="material-icons-outlined float-left pr-2"
+                >file_copy</span
+              >
+              Historial de Recetas
+              <span class="material-icons-outlined float-right"
+                >keyboard_arrow_right</span
+              >
+            </a>
+            <a
+              href="registro-medicamentos"
+              class="inline-block text-gray-600 hover:text-green-500 my-4 w-full"
+            >
+              <span class="material-icons-outlined float-left pr-2"
+                >medication_liquid</span
+              >
+              Registro de Medicamentos
+              <span class="material-icons-outlined float-right"
+                >keyboard_arrow_right</span
+              >
+            </a>
+            <a
+              href="gestion-pacientes"
+              class="inline-block text-gray-600 hover:text-green-500 my-4 w-full"
+            >
+              <span class="material-icons-outlined float-left pr-2"
+                >sentiment_satisfied</span
+              >
+              Mis Pacientes
+              <span class="material-icons-outlined float-right"
+                >keyboard_arrow_right</span
+              >
+            </a>
+          </div>
+
+          <div class="bg-white rounded-xl shadow-lg mb-6 px-6 py-4">
+            <a
+              href="ver-perfil"
+              class="inline-block text-gray-600 hover:text-pink-500 my-4 w-full"
+            >
+              <span class="material-icons-outlined float-left pr-2"
+                >manage_accounts</span
+              >
+              Perfil
+              <span class="material-icons-outlined float-right"
+                >keyboard_arrow_right</span
+              >
+            </a>
+            <a
+              href="configuracion"
+              class="inline-block text-gray-600 hover:text-black my-4 w-full"
+            >
+              <span class="material-icons-outlined float-left pr-2"
+                >settings</span
+              >
+              Ajustes
+              <span class="material-icons-outlined float-right"
+                >keyboard_arrow_right</span
+              >
+            </a>
+            <a
+              href="/auth/logout"
+              class="inline-block text-gray-600 hover:text-red-700 my-4 w-full"
+            >
+              <span class="material-icons-outlined float-left pr-2"
+                >power_settings_new</span
+              >
+              Desconectarse
+              <span class="material-icons-outlined float-right"
+                >keyboard_arrow_right</span
+              >
+            </a>
+          </div>
+        </div>
+
+        <!-- #region MARK: PRESCRIPCION -->
+
+        <div class="w-full lg:w-10/12 mt-6">
+          <div class="bg-red-300 rounded-xl shadow-lg p-6">
+            <h2
+              class="text-4xl font-semibold mb-4 text-white select-none hover:underline"
+            >
+              Prescripción
+            </h2>
+            <form
+              id="prescripcionForm"
+              class="grid grid-cols-1 gap-4"
+              action="/prescripciones/upload"
+              method="post"
+              enctype="multipart/form-data"
+            >
+              <div class="bg-white rounded-xl shadow-lg p-4">
+                <h3 class="text-lg font-semibold mb-2">Datos Generales</h3>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                  <div class="mb-4">
+                    <label for="profesional" class="block text-gray-700"
+                      >Profesional</label
+                    >
+                    <input
+                      type="text"
+                      id="profesional"
+                      name="profesional"
+                      class="w-full border border-gray-300 rounded px-3 py-2 bg-gray-200 select-none"
+                      value="<%= username %>"
+                      readonly
+                    />
+                  </div>
+                  <div class="mb-4">
+                    <label for="paciente" class="block text-gray-700"
+                      >Paciente</label
+                    >
+                    <select
+                      id="paciente"
+                      name="paciente"
+                      class="w-full border border-gray-300 rounded px-3 py-2"
+                    >
+                      <option value="">Selecciona un paciente...</option>
+                      <% if (pacientes && pacientes.length > 0) { %> <%
+                      pacientes.forEach(paciente => { %>
+                      <option
+                        value="<%= paciente.paciente_id %>"
+                        data-obra-social="<%= paciente.obra_social %>"
+                        data-plan="<%= paciente.plan %>"
+                      >
+                        <%= paciente.nombre + ' ' + paciente.apellido %>
+                      </option>
+                      <% }); %> <% } else { %>
+                      <option value="">No hay pacientes disponibles</option>
+                      <% } %>
+                    </select>
+                  </div>
+
+                  <div class="mb-4">
+                    <label for="obraSocial" class="block text-gray-700"
+                      >Obra Social</label
+                    >
+                    <input
+                      type="text"
+                      id="obraSocial"
+                      name="obraSocial"
+                      class="w-full border border-gray-300 rounded px-3 py-2"
+                      placeholder="Buscar obra social..."
+                      autocomplete="on"
+                      readonly
+                    />
+                  </div>
+                  <div class="mb-4">
+                    <label for="plan" class="block text-gray-700">Plan</label>
+                    <input
+                      type="text"
+                      id="plan"
+                      name="plan"
+                      class="w-full border border-gray-300 rounded px-3 py-2"
+                      placeholder="Buscar plan..."
+                      autocomplete="on"
+                      readonly
+                    />
+                  </div>
+
+                  <div class="mb-4 lg:col-span-2">
+                    <label for="diagnostico" class="block text-gray-700"
+                      >Diagnóstico</label
+                    >
+                    <textarea
+                      id="diagnostico"
+                      name="diagnostico"
+                      class="w-full border border-gray-300 rounded px-3 py-2"
+                      rows="4"
+                      placeholder="Ingrese el diagnóstico del paciente..."
+                    ></textarea>
+                  </div>
+                  <div class="mb-4">
+                    <label for="fechaPrescripcion" class="block text-gray-700"
+                      >Fecha de Prescripción</label
+                    >
+                    <input
+                      type="date"
+                      id="fechaPrescripcion"
+                      name="fechaPrescripcion"
+                      class="w-full border border-gray-300 rounded px-3 py-2"
+                      value="2024-06-03"
+                    />
+                  </div>
+                  <div class="mb-4">
+                    <input type="checkbox" id="checkboxVigencia" class="mr-2" />
+                    <label for="checkboxVigencia" class="text-gray-700"
+                      >Agregar Vigencia</label
+                    >
+                  </div>
+                  <div
+                    class="mb-4"
+                    id="vigenciaContainer"
+                    style="display: none"
+                  >
+                    <label for="vigencia" class="block text-gray-700"
+                      >Vigencia</label
+                    >
+                    <input
+                      type="date"
+                      id="vigencia"
+                      name="vigencia"
+                      class="w-full border border-gray-300 rounded px-3 py-2"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <!-- #region MARK: MEDICAMENTOS -->
+              <h2
+                class="text-4xl font-semibold text-white select-none hover:underline"
+              >
+                Medicamentos
+              </h2>
+              <div class="bg-white rounded-xl shadow-lg p-4 mb-4">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                  <div class="mb-4">
+                    <label for="medicamento" class="block text-gray-700"
+                      >Medicamento</label
+                    >
+                    <select
+                      id="medicamento"
+                      name="medicamento"
+                      class="w-full border border-gray-300 rounded px-3 py-2"
+                    >
+                      <option value="">Selecciona una opción</option>
+                      <% medicamentos.forEach(medicamento => { %>
+                      <option
+                        value="<%= medicamento.medicamento_id %>"
+                        data-concentracion="<%= medicamento.concentracion %>"
+                        data-forma-farmaceutica="<%= medicamento.forma_farmaceutica %>"
+                      >
+                        <%= medicamento.nombre_generico %>
+                      </option>
+                      <% }); %>
+                    </select>
+                  </div>
+                  <div class="mb-4">
+                    <label for="concentracion" class="block text-gray-700"
+                      >Concentración</label
+                    >
+                    <input
+                      type="text"
+                      id="concentracion"
+                      name="concentracion"
+                      class="w-full border border-gray-300 rounded px-3 py-2"
+                      readonly
+                    />
+                  </div>
+                  <div class="mb-4">
+                    <label for="formaFarmaceutica" class="block text-gray-700"
+                      >Forma Farmacéutica</label
+                    >
+                    <input
+                      type="text"
+                      id="formaFarmaceutica"
+                      name="formaFarmaceutica"
+                      class="w-full border border-gray-300 rounded px-3 py-2"
+                      readonly
+                    />
+                  </div>
+
+                  <div class="mb-4">
+                    <label for="via" class="block text-gray-700"
+                      >Vía de Administración</label
+                    >
+                    <select
+                      id="via"
+                      name="via"
+                      class="w-full border border-gray-300 rounded px-3 py-2"
+                    >
+                      <option>Selecciona una opción</option>
+                      <option>Oral</option>
+                      <option>Topica</option>
+                      <option>Intravenosa</option>
+                      <option>Intramuscular</option>
+                      <option>Sublingual</option>
+                      <option>Rectal</option>
+                    </select>
+                  </div>
+                  <div class="mb-4">
+                    <label for="frecuencia" class="block text-gray-700"
+                      >Frecuencia</label
+                    >
+                    <div class="flex items-center">
+                      <input
+                        type="number"
+                        id="frecuenciaNumero"
+                        name="frecuenciaNumero"
+                        class="w-full border border-gray-300 rounded px-3 py-2 mr-2"
+                        placeholder="1"
+                      />
+                      <span class="mr-2">cada</span>
+                      <input
+                        type="number"
+                        id="frecuenciaIntervalo"
+                        name="frecuenciaIntervalo"
+                        class="w-full border border-gray-300 rounded px-3 py-2 mr-2"
+                        placeholder="8"
+                      />
+                      <select
+                        id="frecuenciaUnidad"
+                        class="w-full border border-gray-300 rounded px-3 py-2"
+                      >
+                        <option value="horas">horas</option>
+                        <option value="días">días</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="mb-4">
+                    <label for="duracion" class="block text-gray-700"
+                      >Duración</label
+                    >
+                    <div class="flex items-center">
+                      <input
+                        type="number"
+                        id="duracionNumero"
+                        name="duracionNumero"
+                        class="w-52 border border-gray-300 rounded px-3 py-2 mr-2"
+                        placeholder="1"
+                      />
+                      <select
+                        id="duracionUnidad"
+                        class="border border-gray-300 rounded px-3 py-2"
+                      >
+                        <option value="días">días</option>
+                        <option value="semanas">semanas</option>
+                        <option value="meses">meses</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="mb-4">
+                    <label for="fechaInicio" class="fixed text-gray-700"
+                      >Fecha de Inicio</label
+                    >
+                    <input
+                      type="date"
+                      id="fechaInicio"
+                      name="fechaInicio"
+                      class="w-full border border-gray-300 rounded px-3 py-2"
+                    />
+                  </div>
+                </div>
+                <button
+                  type="button"
+                  id="agregarMedicamento"
+                  class="bg-red-700 text-white px-4 py-2 rounded-2xl float-right hover:bg-red-900"
+                >
+                  Agregar Medicamento
+                </button>
+              </div>
+              <div id="listaMedicamentos" class="mt-4"></div>
+              <div
+                id="errorMensaje"
+                class="hidden bg-red-100 text-red-700 border border-red-400 rounded px-4 py-3 mb-4"
+                role="alert"
+              >
+                <span class="block sm:inline"
+                  >Este medicamento ya está en la lista.</span
+                >
+              </div>
+              <!-- #region MARK: PRESTACIONES -->
+              <h2
+                class="text-4xl font-semibold text-white select-none hover:underline"
+              >
+                Prestaciones
+              </h2>
+              <div class="bg-white rounded-xl shadow-lg p-4 mb-4">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                  <div class="mb-4">
+                    <label for="prestacion" class="block text-gray-700"
+                      >Prestación</label
+                    >
+                    <select
+                      id="prestacion"
+                      name="prestacion"
+                      class="w-full border border-gray-300 rounded px-3 py-2"
+                    >
+                      <option>Selecciona una opción</option>
+                      <option>Consulta médica</option>
+                      <option>Exámenes de laboratorio</option>
+                      <option>Radiografía</option>
+                      <option>Ecografía</option>
+                      <option>Cirugía</option>
+                      <option>Fisioterapia</option>
+                      <option>Receta médica</option>
+                    </select>
+                  </div>
+                  <div class="mb-4">
+                    <label for="indicacion" class="block text-gray-700"
+                      >Indicación</label
+                    >
+                    <input
+                      type="text"
+                      id="indicacion"
+                      name="indicacion"
+                      class="w-full border border-gray-300 rounded px-3 py-2"
+                    />
+                  </div>
+                  <div class="mb-4">
+                    <label for="lado" class="block text-gray-700">Lado</label>
+                    <select
+                      id="lado"
+                      name="lado"
+                      class="w-full border border-gray-300 rounded px-3 py-2"
+                    >
+                      <option>Selecciona una opción</option>
+                      <option>A</option>
+                      <option>B</option>
+                      <option>N/A</option>
+                    </select>
+                  </div>
+                  <div class="mb-4">
+                    <label for="justificacion" class="block text-gray-700"
+                      >Justificación</label
+                    >
+                    <input
+                      type="text"
+                      id="justificacion"
+                      name="justificacion"
+                      class="w-full border border-gray-300 rounded px-3 py-2"
+                    />
+                  </div>
+                  <div class="mb-4">
+                    <label
+                      for="fechaInicioPrestacion"
+                      class="block text-gray-700"
+                      >Fecha de Inicio</label
+                    >
+                    <input
+                      type="date"
+                      id="fechaInicioPrestacion"
+                      name="fechaInicioPrestacion"
+                      class="w-full border border-gray-300 rounded px-3 py-2"
+                    />
+                  </div>
+                </div>
+                <button
+                  type="button"
+                  id="agregarPrestacion"
+                  class="bg-red-700 text-white px-4 py-2 rounded-2xl float-right hover:bg-red-900"
+                >
+                  Agregar Prestación
+                </button>
+              </div>
+              <div id="listaPrestaciones" class="mt-4"></div>
+
+              <div
+                id="listaPrestaciones"
+                class="bg-white rounded-xl shadow-lg p-4 mb-4 hidden"
+              ></div>
+
+              <div class="bg-white rounded-xl shadow-lg p-4 mb-4">
+                <h3 class="text-lg font-semibold mb-2">
+                  Comentarios Adicionales
+                </h3>
+                <textarea
+                  id="comentarios"
+                  name="comentarios"
+                  rows="6"
+                  class="w-full border border-gray-300 rounded px-3 py-2"
+                ></textarea>
+              </div>
+              <!-- Campo de archivo -->
+              <div class="mb-4">
+                <label
+                  for="archivo"
+                  class="block text-white text-3xl hover:underline mb-4"
+                  >Archivo de Prescripción</label
+                >
+                <input type="file" name="file" id="file" accept=".pdf"
+                class="border border-gray-300 rounded px-3 py-4" />
+
+              </div>
+              <!-- #region MARK: BOTON PDF -->
+              <div class="flex justify-end space-x-4">
+                <button
+                  type="button"
+                  id="generarPDF"
+                  class="bg-green-500 text-white text-xl px-4 py-2 rounded hover:bg-green-800"
+                >
+                  Generar PDF
+                </button>
+
+                <!-- #region MARK: ENVIAR HISTORIAL-RECETAS -->
+                <button
+                  type="submit"
+                  class="bg-blue-500 text-white text-xl px-4 py-2 rounded hover:bg-blue-800"
+                >
+                  Enviar
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- #region MARK: JAVASCRIPT -->
+
+    <!--  jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!--  Select2 JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+
+    <!--  jsPDF -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const profileImage = document.getElementById("profileImage");
+        const dropdownMenu = document.getElementById("dropdownMenu");
+
+        profileImage.addEventListener("click", () => {
+          dropdownMenu.classList.toggle("hidden");
+        });
+
+        // Inicializar Select2
+        $(document).ready(function () {
+          $("#paciente").select2({
+            placeholder: "Buscar paciente...",
+            allowClear: true,
+          });
+
+          // Actualizar obra social y plan al seleccionar un paciente
+          $("#paciente").change(function () {
+            var selectedPaciente = $(this).find(":selected");
+            var obraSocial = selectedPaciente.data("obra-social");
+            var plan = selectedPaciente.data("plan");
+
+            $("#obraSocial").val(obraSocial);
+            $("#plan").val(plan);
+          });
+        });
+
+        // Inicializar Select2 para medicamentos
+        $("#medicamento").select2({
+          placeholder: "Buscar medicamento...",
+          allowClear: true,
+        });
+
+        // Actualizar concentración y forma farmacéutica al seleccionar un medicamento
+        $("#medicamento").change(function () {
+          var selectedMedicamento = $(this).find(":selected");
+          var concentracion = selectedMedicamento.data("concentracion");
+          var formaFarmaceutica =
+            selectedMedicamento.data("forma-farmaceutica");
+
+          $("#concentracion").val(concentracion);
+          $("#formaFarmaceutica").val(formaFarmaceutica);
+        });
+
+        // Lógica para agregar vigencia
+        document
+          .getElementById("checkboxVigencia")
+          .addEventListener("change", function () {
+            const vigenciaContainer =
+              document.getElementById("vigenciaContainer");
+            if (this.checked) {
+              vigenciaContainer.style.display = "block";
+            } else {
+              vigenciaContainer.style.display = "none";
+              document.getElementById("vigencia").value = "";
+            }
+          });
+
+        // Lógica para agregar medicamentos
+
+        // Objeto para realizar un seguimiento de los medicamentos agregados
+        const medicamentosAgregados = {};
+
+        document
+          .getElementById("agregarMedicamento")
+          .addEventListener("click", () => {
+            const medicamentoId = $("#medicamento").val();
+            const medicamentoNombre = $("#medicamento option:selected").text();
+            const concentracion =
+              document.getElementById("concentracion").value;
+            const formaFarmaceutica =
+              document.getElementById("formaFarmaceutica").value;
+            const via = document.getElementById("via").value;
+            const frecuenciaNumero =
+              document.getElementById("frecuenciaNumero").value;
+            const frecuenciaIntervalo = document.getElementById(
+              "frecuenciaIntervalo"
+            ).value;
+            const frecuenciaUnidad =
+              document.getElementById("frecuenciaUnidad").value;
+            const frecuencia = `${frecuenciaNumero} cada ${frecuenciaIntervalo} ${frecuenciaUnidad}`;
+            const duracionNumero =
+              document.getElementById("duracionNumero").value;
+            const duracionUnidad =
+              document.getElementById("duracionUnidad").value;
+            const duracion = `${duracionNumero} ${duracionUnidad}`;
+            const fechaInicio = document.getElementById("fechaInicio").value;
+
+            // Verificar si el medicamento ya ha sido agregado
+            const medicamentoKey = `${medicamentoId}-${concentracion}-${formaFarmaceutica}`;
+            if (medicamentosAgregados[medicamentoKey]) {
+              // Mostrar el mensaje de error
+              document
+                .getElementById("errorMensaje")
+                .classList.remove("hidden");
+              return;
+            }
+
+            // Marcar el medicamento como agregado
+            medicamentosAgregados[medicamentoKey] = true;
+
+            const listaMedicamentos =
+              document.getElementById("listaMedicamentos");
+
+            const medicamentoDiv = document.createElement("div");
+            medicamentoDiv.classList.add(
+              "bg-gray-100",
+              "rounded-xl",
+              "shadow-lg",
+              "p-4",
+              "mb-4"
+            );
+            medicamentoDiv.innerHTML = `
+    <h4 class="text-lg font-semibold mb-2">Medicamento: ${medicamentoNombre}</h4>
+    <p class="text-justify"><strong>Concentración:</strong> ${concentracion}</p>
+    <p class="text-justify"><strong>Forma Farmacéutica:</strong> ${formaFarmaceutica}</p>
+    <p class="text-justify"><strong>Vía de Administración:</strong> ${via}</p>
+    <p class="text-justify"><strong>Frecuencia:</strong> ${frecuencia}</p>
+    <p class="text-justify"><strong>Duración:</strong> ${duracion}</p>
+    <p class="text-justify"><strong>Fecha de Inicio:</strong> ${fechaInicio}</p>
+    <button class="eliminar text-red-500">Eliminar</button>
+  `;
+            listaMedicamentos.appendChild(medicamentoDiv);
+
+            // Agregar funcionalidad de eliminación
+            medicamentoDiv
+              .querySelector(".eliminar")
+              .addEventListener("click", () => {
+                // Remover el medicamento del seguimiento de medicamentos agregados
+                delete medicamentosAgregados[medicamentoKey];
+                medicamentoDiv.remove();
+              });
+
+            // Ocultar el mensaje de error si se agrega un medicamento nuevo con éxito
+            document.getElementById("errorMensaje").classList.add("hidden");
+          });
+
+        // prestaciones
+        document
+          .getElementById("agregarPrestacion")
+          .addEventListener("click", () => {
+            const prestacion = document.getElementById("prestacion").value;
+            const indicacion = document.getElementById("indicacion").value;
+            const lado = document.getElementById("lado").value;
+            const justificacion =
+              document.getElementById("justificacion").value;
+            const fechaInicio = document.getElementById(
+              "fechaInicioPrestacion"
+            ).value;
+
+            const listaPrestaciones =
+              document.getElementById("listaPrestaciones");
+
+            // Verificar si la prestación ya existe
+            for (let i = 0; i < listaPrestaciones.children.length; i++) {
+              const item = listaPrestaciones.children[i];
+              if (
+                item.innerText.includes(`Prestación: ${prestacion}`) &&
+                item.innerText.includes(`Indicación: ${indicacion}`) &&
+                item.innerText.includes(`Lado: ${lado}`)
+              ) {
+                alert("Esta prestación ya está en la lista.");
+                return;
+              }
+            }
+
+            const prestacionDiv = document.createElement("div");
+            prestacionDiv.classList.add(
+              "bg-gray-100",
+              "rounded-xl",
+              "shadow-lg",
+              "p-4",
+              "mb-4"
+            );
+            prestacionDiv.innerHTML = `
+    <h4 class="text-lg font-semibold mb-2">Prestación: ${prestacion}</h4>
+    <p class="text-justify"><strong>Indicación:</strong> ${indicacion}</p>
+    <p class="text-justify"><strong>Lado:</strong> ${lado}</p>
+    <p class="text-justify"><strong>Justificación:</strong> ${justificacion}</p>
+    <p class="text-justify"><strong>Fecha de Inicio:</strong> ${fechaInicio}</p>
+    <button class="eliminar text-red-500">Eliminar</button>
+  `;
+            listaPrestaciones.appendChild(prestacionDiv);
+
+            // Agregar funcionalidad de eliminación
+            prestacionDiv
+              .querySelector(".eliminar")
+              .addEventListener("click", () => {
+                prestacionDiv.remove();
+              });
+          });
+
+        document.getElementById("generarPDF").addEventListener("click", () => {
+          const { jsPDF } = window.jspdf;
+          const doc = new jsPDF();
+          const logoURL = "https://i.ibb.co/9nzzWPZ/subirlogo2.png";
+
+          fetch(logoURL)
+            .then((response) => response.blob())
+            .then((blob) => {
+              const reader = new FileReader();
+              reader.onloadend = () => {
+                const logoDataURL = reader.result;
+
+                const profesional =
+                  document.getElementById("profesional").value;
+                const pacienteSelect = document.getElementById("paciente");
+                const paciente =
+                  pacienteSelect.options[pacienteSelect.selectedIndex].text;
+                const obraSocial = document.getElementById("obraSocial").value;
+                const plan = document.getElementById("plan").value;
+                const diagnostico =
+                  document.getElementById("diagnostico").value;
+                const fechaPrescripcion =
+                  document.getElementById("fechaPrescripcion").value;
+                const vigencia = document.getElementById("vigencia").value;
+                const comentarios =
+                  document.getElementById("comentarios").value;
+
+                let y = 10;
+                const margin = 10;
+                const pageWidth = doc.internal.pageSize.width;
+                const pageHeight = doc.internal.pageSize.height;
+
+                doc.addImage(logoDataURL, "PNG", margin, y, 56, 25);
+
+                y += 40;
+
+                doc.setFontSize(16);
+                doc.text("Prescripción Médica", pageWidth / 2, y, {
+                  align: "center",
+                });
+                y += 10;
+                doc.setFontSize(12);
+                doc.text(`Profesional: ${profesional}`, margin, y);
+                y += 10;
+                doc.text(`Paciente: ${paciente}`, margin, y);
+                y += 10;
+                doc.text(`Obra Social: ${obraSocial}`, margin, y);
+                y += 10;
+                doc.text(`Plan: ${plan}`, margin, y);
+                y += 10;
+                doc.text(`Diagnóstico: ${diagnostico}`, margin, y);
+                y += 10;
+                doc.text(
+                  `Fecha de Prescripción: ${fechaPrescripcion}`,
+                  margin,
+                  y
+                );
+                y += 10;
+                doc.text(`Vigencia: ${vigencia}`, margin, y);
+                y += 10;
+
+                y += 10;
+                doc.line(margin, y, pageWidth - margin, y);
+                y += 10;
+
+                const tieneMedicamentos =
+                  document.getElementById("listaMedicamentos").children.length >
+                  0;
+                const tienePrestaciones =
+                  document.getElementById("listaPrestaciones").children.length >
+                  0;
+
+                if (tieneMedicamentos) {
+                  doc.setFontSize(16);
+                  doc.text("Medicamentos:", pageWidth / 2, y, {
+                    align: "center",
+                  });
+                  y += 10;
+                  doc.setFontSize(12);
+                  const medicamentos =
+                    document.getElementById("listaMedicamentos").children;
+                  for (let i = 0; i < medicamentos.length; i++) {
+                    const medicamento = medicamentos[i];
+                    const medicamentoNombre = medicamento
+                      .querySelector("h4")
+                      .innerText.split(": ")[1];
+                    const concentracion = medicamento
+                      .querySelector("p:nth-child(2)")
+                      .innerText.split(": ")[1];
+                    const formaFarmaceutica = medicamento
+                      .querySelector("p:nth-child(3)")
+                      .innerText.split(": ")[1];
+                    const via = medicamento
+                      .querySelector("p:nth-child(4)")
+                      .innerText.split(": ")[1];
+                    const frecuencia = medicamento
+                      .querySelector("p:nth-child(5)")
+                      .innerText.split(": ")[1];
+                    const duracion = medicamento
+                      .querySelector("p:nth-child(6)")
+                      .innerText.split(": ")[1];
+                    const fechaInicio = medicamento
+                      .querySelector("p:nth-child(7)")
+                      .innerText.split(": ")[1];
+
+                    const medicamentoText = [
+                      `Medicamento: ${medicamentoNombre}`,
+                      `Concentración: ${concentracion}`,
+                      `Forma Farmacéutica: ${formaFarmaceutica}`,
+                      `Vía de Administración: ${via}`,
+                      `Frecuencia: ${frecuencia}`,
+                      `Duración: ${duracion}`,
+                      `Fecha de Inicio: ${fechaInicio}`,
+                    ];
+
+                    for (let text of medicamentoText) {
+                      doc.text(text, margin, y);
+                      y += 10;
+                      if (y > pageHeight - margin) {
+                        doc.addPage();
+                        y = margin;
+                      }
+                    }
+
+                    if (i < medicamentos.length - 1) {
+                      doc.line(margin, y, pageWidth - margin, y);
+                      y += 10;
+                      if (y > pageHeight - margin) {
+                        doc.addPage();
+                        y = margin;
+                      }
+                    }
+                  }
+                }
+
+                if (tienePrestaciones || comentarios.trim() !== "") {
+                  if (y > pageHeight - margin) {
+                    doc.addPage();
+                    y = margin;
+                  }
+
+                  if (tienePrestaciones) {
+                    doc.setFontSize(16);
+                    doc.text("Prestaciones:", pageWidth / 2, y, {
+                      align: "center",
+                    });
+                    y += 10;
+                    doc.setFontSize(12);
+                    const prestaciones =
+                      document.getElementById("listaPrestaciones").children;
+                    for (let i = 0; i < prestaciones.length; i++) {
+                      const prestacionText = doc.splitTextToSize(
+                        `- ${prestaciones[i].innerText}`,
+                        pageWidth - 2 * margin
+                      );
+                      doc.text(prestacionText, margin, y);
+                      y += prestacionText.length * 10;
+                      if (y > pageHeight - margin) {
+                        doc.addPage();
+                        y = margin;
+                      }
+                    }
+                  }
+
+                  if (comentarios.trim() !== "") {
+                    y += 10;
+                    if (y > pageHeight - margin) {
+                      doc.addPage();
+                      y = margin;
+                    }
+                    doc.setFontSize(16);
+                    doc.text("Comentarios Adicionales:", pageWidth / 2, y, {
+                      align: "center",
+                    });
+                    y += 10;
+                    doc.setFontSize(12);
+                    const comentariosText = doc.splitTextToSize(
+                      comentarios,
+                      pageWidth - 2 * margin
+                    );
+                    doc.text(comentariosText, margin, y);
+                  }
+                }
+
+                doc.save("prescripcion.pdf");
+
+                const pdfBlob = doc.output("blob");
+                const formData = new FormData();
+                formData.append("file", pdfBlob, "prescripcion.pdf");
+                formData.append("profesional", profesional);
+                formData.append("paciente", paciente);
+                formData.append("fechaPrescripcion", fechaPrescripcion);
+
+                fetch("/api/prescripciones/upload", {
+                  method: "POST",
+                  body: formData,
+                })
+                  .then((response) => response.json())
+                  .then((data) => {
+                    console.log("Archivo subido con éxito:", data);
+                  })
+                  .catch((error) => {
+                    console.error("Error al subir el archivo:", error);
+                  });
+              };
+              reader.readAsDataURL(blob);
+            })
+            .catch((error) => {
+              console.error("Error al cargar la imagen del logo:", error);
+            });
+        });
+
+        document.getElementById("enviar").addEventListener("click", () => {
+          const profesional = document.getElementById("profesional").value;
+          const paciente = document.getElementById("paciente").value;
+          const obraSocial = document.getElementById("obraSocial").value;
+          const plan = document.getElementById("plan").value;
+          const diagnostico = document.getElementById("diagnostico").value;
+          const fechaPrescripcion =
+            document.getElementById("fechaPrescripcion").value;
+          const vigencia = document.getElementById("vigencia").value;
+          const comentarios = document.getElementById("comentarios").value;
+          const medicamentos = [];
+          document
+            .querySelectorAll("#listaMedicamentos > div")
+            .forEach((med) => {
+              medicamentos.push({
+                nombre: med.querySelector("h4").innerText.split(": ")[1],
+                concentracion: med
+                  .querySelector("p:nth-child(2)")
+                  .innerText.split(": ")[1],
+                formaFarmaceutica: med
+                  .querySelector("p:nth-child(3)")
+                  .innerText.split(": ")[1],
+                via: med
+                  .querySelector("p:nth-child(4)")
+                  .innerText.split(": ")[1],
+                frecuencia: med
+                  .querySelector("p:nth-child(5)")
+                  .innerText.split(": ")[1],
+                duracion: med
+                  .querySelector("p:nth-child(6)")
+                  .innerText.split(": ")[1],
+                fechaInicio: med
+                  .querySelector("p:nth-child(7)")
+                  .innerText.split(": ")[1],
+              });
+            });
+
+          const prestaciones = [];
+          document
+            .querySelectorAll("#listaPrestaciones > div")
+            .forEach((prest) => {
+              prestaciones.push({
+                prestacion: prest.querySelector("h4").innerText.split(": ")[1],
+                indicacion: prest
+                  .querySelector("p:nth-child(2)")
+                  .innerText.split(": ")[1],
+                lado: prest
+                  .querySelector("p:nth-child(3)")
+                  .innerText.split(": ")[1],
+                justificacion: prest
+                  .querySelector("p:nth-child(4)")
+                  .innerText.split(": ")[1],
+                fechaInicio: prest
+                  .querySelector("p:nth-child(5)")
+                  .innerText.split(": ")[1],
+              });
+            });
+
+          const prescripcionData = {
+            profesional,
+            paciente,
+            obraSocial,
+            plan,
+            diagnostico,
+            fechaPrescripcion,
+            vigencia,
+            comentarios,
+            medicamentos,
+            prestaciones,
+          };
+
+          fetch("/api/prescripciones/submit", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify(prescripcionData),
+          })
+            .then((response) => response.json())
+            .then((data) => {
+              console.log("Datos enviados con éxito:", data);
+            })
+            .catch((error) => {
+              console.error("Error al enviar los datos:", error);
+            });
+        });
+      });
+    </script>
+  </body>
+</html>

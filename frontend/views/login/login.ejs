@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.2/dist/tailwind.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://i.ibb.co/T4NYsZv/subirlogo.png"
+      type="image/x-icon"
+    />
+    <title>Login - Hospital Central Ramon Carrillo</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Outfit:wght@100..900&display=swap");
+      html,
+      body {
+        font-family: "Outfit", sans-serif;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(215, 234, 250);
+      }
+      #register-modal {
+        z-index: 50;
+      }
+
+      #forgot-password-modal {
+        z-index: 50;
+      }
+
+      button:disabled {
+        cursor: not-allowed;
+        background-color: #9ca3af;
+      }
+
+      button:disabled:hover {
+        background-color: #9ca3af;
+      }
+    </style>
+  </head>
+  <body class="min-h-screen flex justify-center items-center">
+    <div class="flex justify-center items-center absolute mb-32 ml-14 z-10">
+      <img
+        src="https://i.ibb.co/9nzzWPZ/subirlogo2.png"
+        alt="Logo"
+        class="h-25 w-auto mb-24 mr-2 pb-96"
+        draggable="false"
+      />
+    </div>
+    <!--region MARK: Elementos del background -->
+    <div
+      class="absolute w-60 h-60 rounded-xl bg-green-300 -top-5 -left-16 z-0 transform rotate-45 hidden md:block"
+    ></div>
+    <div
+      class="absolute w-48 h-48 rounded-xl bg-yellow-300 -bottom-6 -right-10 transform rotate-12 hidden md:block"
+    ></div>
+    <div
+      class="py-12 px-12 bg-white rounded-2xl shadow-2xl z-20 max-w-md w-full"
+    >
+      <div
+        class="w-40 h-40 absolute bg-pink-300 rounded-full top-0 right-12 hidden md:block"
+      ></div>
+      <div
+        class="w-20 h-40 absolute bg-red-300 rounded-full bottom-20 left-10 transform rotate-45 hidden md:block"
+      ></div>
+
+      <!--region MARK: Login -->
+      <div>
+        <h1
+          class="text-2xl text-purple-500 font-bold text-center mb-4 uppercase select-none hover:text-purple-700"
+        >
+          Acceso Usuarios
+        </h1>
+        <p
+          class="w-full text-center text-sm mb-8 font-semibold text-gray-700 tracking-wide"
+        >
+          Acceso autorizado para pacientes, médicos y administradores
+        </p>
+      </div>
+
+      <form id="login-form">
+        <div class="space-y-4">
+          <input
+            type="text"
+            name="username"
+            placeholder="Usuario"
+            class="block text-sm py-3 px-4 rounded-lg w-full border outline-purple-500"
+            required
+          />
+          <input
+            type="password"
+            name="password"
+            placeholder="Contraseña"
+            class="block text-sm py-3 px-4 rounded-lg w-full border outline-purple-500"
+            required
+          />
+        </div>
+        <div class="text-center mt-6">
+          <button
+            type="submit"
+            class="w-full py-2 text-xl text-white bg-purple-400 rounded-lg hover:bg-purple-500 transition-all"
+          >
+            Entrar
+          </button>
+          <p class="mt-4 text-sm">
+            <span
+              class="hover:underline cursor-pointer"
+              id="open-register-modal"
+              >¿No tenes cuenta? Regístrate acá</span
+            >
+          </p>
+          <p class="mt-4 text-sm">
+            <span class="hover:underline cursor-pointer" id="forgot-password"
+              >¿Olvidaste tu Contraseña?</span
+            >
+          </p>
+        </div>
+      </form>
+    </div>
+
+    <!--region MARK: Modal recuperación de contraseña -->
+    <div
+      id="forgot-password-modal"
+      class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 hidden"
+    >
+      <div class="bg-white rounded-lg shadow-xl p-6 w-full max-w-md z-60">
+        <h2 class="text-2xl font-bold mb-4">Recuperar Contraseña</h2>
+        <form id="forgot-password-form">
+          <div class="space-y-4">
+            <input
+              type="email"
+              name="email"
+              placeholder="Correo Electrónico"
+              class="block text-sm py-3 px-4 rounded-lg w-full border outline-purple-500"
+              required
+            />
+          </div>
+          <div class="text-center mt-6">
+            <button
+              type="submit"
+              class="w-full py-2 text-xl text-white bg-purple-400 rounded-lg hover:bg-purple-500 transition-all"
+            >
+              Enviar Correo
+            </button>
+            <p class="mt-4 text-sm">
+              <span
+                class="hover:underline cursor-pointer"
+                id="close-forgot-password-modal"
+                >Cancelar</span
+              >
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!--region MARK: Modal de registro -->
+    <div
+      id="register-modal"
+      class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 hidden"
+    >
+      <div class="bg-white rounded-lg shadow-xl p-6 w-full max-w-md z-60">
+        <h2 class="text-2xl font-bold mb-4">Registro de Usuario</h2>
+        <form id="register-form">
+          <div class="space-y-4">
+            <input
+              type="text"
+              name="username"
+              placeholder="Usuario"
+              class="block text-sm py-3 px-4 rounded-lg w-full border outline-purple-500"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Correo Electrónico"
+              class="block text-sm py-3 px-4 rounded-lg w-full border outline-purple-500"
+              required
+            />
+            <input
+              type="password"
+              name="password"
+              placeholder="Contraseña"
+              class="block text-sm py-3 px-4 rounded-lg w-full border outline-purple-500"
+              required
+            />
+          </div>
+          <div class="text-center mt-6">
+            <button
+              type="submit"
+              class="w-full py-2 text-xl text-white bg-purple-400 rounded-lg hover:bg-purple-500 transition-all"
+            >
+              Registrar
+            </button>
+            <p class="mt-4 text-sm">
+              <span
+                class="hover:underline cursor-pointer"
+                id="close-register-modal"
+                >Cancelar</span
+              >
+            </p>
+            <p
+              id="register-message"
+              class="mt-4 text-sm text-red-500 hidden"
+            ></p>
+          </div>
+        </form>
+      </div>
+    </div>
+   <!--region MARK: Javascript -->
+    <script>
+      // Función para borrar una cookie
+      function deleteCookie(name) {
+        document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
+      }
+
+      // Llamar a la función para borrar la cookie
+      deleteCookie("token");
+
+      document
+        .getElementById("login-form")
+        .addEventListener("submit", async (e) => {
+          e.preventDefault();
+
+          const form = e.target;
+          const username = form.username.value;
+          const password = form.password.value;
+
+          const data = { username, password };
+
+          try {
+            const response = await fetch("/auth/login", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify(data),
+            });
+
+            const result = await response.json();
+
+            if (result.token) {
+              localStorage.setItem("authToken", result.token);
+              console.log("Inicio de sesión exitoso.");
+              window.location.href = result.redirect;
+            } else {
+              console.error(
+                "Error en el inicio de sesión: " +
+                  (result.message ||
+                    "No se pudo completar el inicio de sesión.")
+              );
+            }
+          } catch (error) {
+            console.error("Error:", error);
+            alert("Error en el inicio de sesión");
+          }
+        });
+
+      const fetchProtectedRoute = async () => {
+        const token = localStorage.getItem("authToken");
+
+        try {
+          const response = await fetch("/dashboard-usuario", {
+            method: "GET",
+            headers: {
+              Authorization: `Bearer ${token}`,
+            },
+          });
+
+          if (response.ok) {
+            const data = await response.json();
+            console.log("Datos del usuario:", data);
+          } else {
+            console.error("Error al acceder a la ruta protegida.");
+          }
+        } catch (error) {
+          console.error("Error:", error);
+        }
+      };
+
+      document
+        .getElementById("open-register-modal")
+        .addEventListener("click", () => {
+          document.getElementById("register-modal").classList.remove("hidden");
+        });
+
+      document
+        .getElementById("close-register-modal")
+        .addEventListener("click", () => {
+          document.getElementById("register-modal").classList.add("hidden");
+        });
+
+      document
+        .getElementById("register-form")
+        .addEventListener("submit", async (e) => {
+          e.preventDefault();
+
+          const form = e.target;
+          const formData = new FormData(form);
+          const data = {
+            username: formData.get("username"),
+            email: formData.get("email"),
+            password: formData.get("password"),
+          };
+
+          try {
+            const response = await fetch("/auth/register", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify(data),
+            });
+
+            const result = await response.json();
+            const messageElement = document.getElementById("register-message");
+
+            if (result.success) {
+              console.log("Registro completado.");
+              messageElement.classList.remove("hidden");
+              messageElement.textContent = "Registro exitoso.";
+              form.querySelector('button[type="submit"]').disabled = true;
+            } else if (result.message.includes("already registered")) {
+              console.log(result.message);
+              messageElement.classList.remove("hidden");
+              messageElement.textContent = result.message;
+            } else {
+              console.log(
+                "Error en el registro: " +
+                  (result.message || "No se pudo completar el registro.")
+              );
+            }
+          } catch (error) {
+            console.error("Error:", error);
+            alert("Error en el registro");
+          }
+        });
+
+      document
+        .getElementById("forgot-password")
+        .addEventListener("click", () => {
+          document
+            .getElementById("forgot-password-modal")
+            .classList.remove("hidden");
+        });
+
+      document
+        .getElementById("close-forgot-password-modal")
+        .addEventListener("click", () => {
+          document
+            .getElementById("forgot-password-modal")
+            .classList.add("hidden");
+        });
+
+      document
+        .getElementById("forgot-password-form")
+        .addEventListener("submit", async (e) => {
+          e.preventDefault();
+
+          const form = e.target;
+          const formData = new FormData(form);
+          const data = {
+            email: formData.get("email"),
+          };
+
+          try {
+            const response = await fetch("/auth/forgot-password", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify(data),
+            });
+
+            const result = await response.json();
+            if (result.success) {
+              alert(
+                "Se ha enviado un correo con instrucciones para recuperar tu contraseña."
+              );
+              document
+                .getElementById("forgot-password-modal")
+                .classList.add("hidden");
+            } else {
+              alert(
+                "Error al enviar el correo de recuperación: " +
+                  (result.message || "Por favor, intenta nuevamente.")
+              );
+            }
+          } catch (error) {
+            console.error("Error:", error);
+            alert("Error al enviar el correo de recuperación");
+          }
+        });
+    </script>
+  </body>
+</html>

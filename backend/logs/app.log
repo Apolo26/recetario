@@ -1,0 +1,1495 @@
+2024-06-12T23:44:12.823Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-12T23:44:12.836Z - INFO: Conectado a la base de datos MySQL
+2024-06-12T23:44:12.837Z - LOG: Conectado a la base de datos MySQL
+2024-06-12T23:44:14.509Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-12T23:44:18.106Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-12T23:44:18.119Z - INFO: Conectado a la base de datos MySQL
+2024-06-12T23:44:18.119Z - LOG: Conectado a la base de datos MySQL
+2024-06-12T23:44:18.310Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-12T23:44:27.794Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-12T23:44:34.349Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-12T23:44:47.299Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-12T23:45:25.185Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-12T23:45:36.767Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-12T23:45:36.779Z - INFO: Conectado a la base de datos MySQL
+2024-06-12T23:45:36.779Z - LOG: Conectado a la base de datos MySQL
+2024-06-12T23:45:37.115Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-12T23:46:32.200Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-12T23:46:32.212Z - INFO: Conectado a la base de datos MySQL
+2024-06-12T23:46:32.212Z - LOG: Conectado a la base de datos MySQL
+2024-06-12T23:46:45.095Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-12T23:46:45.110Z - INFO: Conectado a la base de datos MySQL
+2024-06-12T23:46:45.110Z - LOG: Conectado a la base de datos MySQL
+2024-06-12T23:46:47.706Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-12T23:46:53.043Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-12T23:46:55.278Z - LOG: Solicitud entrante: GET /registro-medicamentos
+2024-06-12T23:46:56.744Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-12T23:47:16.725Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-12T23:47:16.737Z - INFO: Conectado a la base de datos MySQL
+2024-06-12T23:47:16.737Z - LOG: Conectado a la base de datos MySQL
+2024-06-12T23:49:35.432Z - LOG: Solicitud entrante: GET /dashboard
+2024-06-12T23:49:36.747Z - LOG: Solicitud entrante: GET /gestion-pacientes
+2024-06-12T23:49:36.831Z - LOG: Solicitud entrante: GET /api/pacientes
+2024-06-12T23:49:39.320Z - LOG: Solicitud entrante: GET /gestion-pacientes
+2024-06-12T23:49:39.394Z - LOG: Solicitud entrante: GET /api/pacientes
+2024-06-12T23:49:43.579Z - LOG: Solicitud entrante: GET /registro-medicamentos
+2024-06-12T23:49:44.735Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-12T23:49:46.236Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-12T23:51:15.497Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-12T23:54:36.378Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-12T23:57:13.454Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-12T23:57:15.862Z - LOG: Solicitud entrante: GET /auth/logout
+2024-06-12T23:57:15.871Z - LOG: Solicitud entrante: GET /login
+2024-06-12T23:57:24.303Z - LOG: Solicitud entrante: POST /auth/login
+2024-06-12T23:57:24.304Z - LOG: Datos recibidos para login: 
+2024-06-12T23:57:24.359Z - LOG: Usuario autenticado con éxito: 
+2024-06-12T23:57:24.377Z - LOG: Solicitud entrante: GET /dashboard
+2024-06-12T23:57:27.125Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-12T23:57:48.561Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:04:54.757Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:14:54.731Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T00:14:54.744Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T00:14:54.744Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T00:15:26.360Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:16:16.766Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:16:40.939Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T00:16:40.951Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T00:16:40.951Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T00:17:47.542Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:18:52.700Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:18:53.166Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:18:53.322Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:19:39.993Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:19:50.771Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:19:50.944Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:20:26.112Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:20:33.412Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:21:40.533Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:21:50.392Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:21:51.262Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:21:59.707Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:22:00.142Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:22:00.313Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:22:40.837Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:23:06.401Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:23:34.956Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:23:58.034Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T00:23:58.046Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T00:23:58.047Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T00:23:59.673Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:24:10.578Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T00:24:10.591Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T00:24:10.591Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T00:24:13.965Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:26:09.327Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:27:08.053Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T00:27:08.065Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T00:27:08.066Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T00:27:11.662Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:27:31.250Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:29:50.129Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T00:29:50.144Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T00:29:50.144Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T00:29:51.637Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T00:29:51.649Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T00:29:51.649Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T00:29:54.884Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:32:48.442Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:32:48.449Z - ERROR: Error capturado en el middleware: C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-profesional\prescripcion.ejs:247
+    245|                     >
+    246|                       <option value="">Selecciona una obra social...</option>
+ >> 247|                       <% if (obrasSociales && obrasSociales.length > 0) { %>
+    248|                         <% obrasSociales.forEach(obraSocial => { %>
+    249|                           <option value="<%= obraSocial.nombre %>">
+    250|                             <%= obraSocial.nombre %>
+
+obrasSociales is not defined
+2024-06-13T00:33:08.365Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T00:33:08.379Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T00:33:08.379Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T00:33:09.547Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T00:33:09.560Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T00:33:09.561Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T00:33:23.650Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T00:33:23.663Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T00:33:23.663Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T00:33:26.794Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:34:14.125Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T00:34:14.141Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T00:34:14.142Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T00:34:20.034Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:37:41.354Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:38:46.905Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:40:55.196Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:41:00.566Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:41:01.105Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:41:01.255Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:41:19.357Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:41:19.924Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:42:33.041Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:42:35.127Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:42:35.316Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:42:47.510Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:42:47.969Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:42:48.101Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:42:57.736Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:42:57.908Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:43:26.878Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:43:27.454Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:43:32.296Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:43:32.809Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:43:32.982Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:43:36.386Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:51:05.476Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T00:51:05.489Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T00:51:05.490Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T00:52:45.880Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T00:52:45.893Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T00:52:45.893Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T00:52:50.829Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T00:52:50.843Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T00:52:50.843Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T00:53:56.899Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:53:58.673Z - LOG: Solicitud entrante: GET /obtener_paciente/Juan%20Perez
+2024-06-13T00:58:02.871Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:58:02.881Z - LOG: Solicitud entrante: GET /login
+2024-06-13T00:58:07.369Z - LOG: Solicitud entrante: POST /auth/login
+2024-06-13T00:58:07.369Z - LOG: Datos recibidos para login: 
+2024-06-13T00:58:07.426Z - LOG: Usuario autenticado con éxito: 
+2024-06-13T00:58:07.446Z - LOG: Solicitud entrante: GET /dashboard
+2024-06-13T00:58:09.774Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T00:59:03.208Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T01:07:27.859Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T01:28:57.386Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T01:28:57.398Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T01:28:57.398Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T01:30:55.306Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T01:30:55.318Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T01:30:55.319Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T01:31:20.420Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T01:31:42.729Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T01:35:12.387Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T01:35:12.990Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T01:36:12.518Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T01:39:01.555Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T01:43:08.749Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T01:49:59.725Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T01:49:59.738Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T01:49:59.739Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T01:50:29.851Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T01:53:38.297Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T02:25:10.931Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T02:25:47.699Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T02:26:26.622Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T02:32:19.420Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T02:32:19.425Z - ERROR: Error capturado en el middleware: C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-profesional\prescripcion.ejs:359
+    357|                     >
+    358|                     <option value="">Selecciona una opción
+ >> 359|                     <%= medicamento.concentracion %>
+    360|                     </option>
+    361|                   
+    362|                     </select>
+
+medicamento is not defined
+2024-06-13T02:32:49.660Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T02:32:49.666Z - ERROR: Error capturado en el middleware: C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-profesional\prescripcion.ejs:359
+    357|                     >
+    358|                     <option value="">Selecciona una opción
+ >> 359|                     <%= medicamento.concentracion %>
+    360|                     </option>
+    361|                   
+    362|                     </select>
+
+medicamento is not defined
+2024-06-13T02:33:03.753Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T02:33:03.769Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T02:33:03.769Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T02:33:04.670Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T02:33:26.934Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T02:33:26.947Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T02:33:26.947Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T02:33:28.798Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T02:33:28.811Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T02:33:28.812Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T02:33:29.161Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T02:33:29.178Z - ERROR: Error capturado en el middleware: C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-profesional\prescripcion.ejs:359
+    357|                     >
+    358|                     <option value="">Selecciona una opción
+ >> 359|                     <%= medicamento.concentracion %>
+    360|                     </option>
+    361|                   
+    362|                     </select>
+
+medicamento is not defined
+2024-06-13T02:37:34.867Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T02:37:34.880Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T02:37:34.880Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T02:37:37.162Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T02:37:37.232Z - LOG: Solicitud entrante: GET /favicon.ico
+2024-06-13T02:37:45.772Z - LOG: Solicitud entrante: GET /dashboard
+2024-06-13T02:37:47.652Z - LOG: Solicitud entrante: GET /registro-medicamentos
+2024-06-13T02:37:55.703Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T02:37:55.716Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T02:37:55.716Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T02:37:56.029Z - LOG: Solicitud entrante: GET /registro-medicamentos
+2024-06-13T02:37:56.951Z - LOG: Solicitud entrante: GET /medicamentos/5
+2024-06-13T02:37:59.077Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T02:37:59.084Z - ERROR: Error capturado en el middleware: C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-profesional\prescripcion.ejs:359
+    357|                     >
+    358|                     <option value="">Selecciona una opción
+ >> 359|                     <%= medicamento.concentracion %>
+    360|                     </option>
+    361|                   
+    362|                     </select>
+
+medicamento is not defined
+2024-06-13T02:38:20.477Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T02:38:20.482Z - ERROR: Error capturado en el middleware: C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-profesional\prescripcion.ejs:359
+    357|                     >
+    358|                     <option value="">Selecciona una opción
+ >> 359|                     <%= medicamento.concentracion %>
+    360|                     </option>
+    361|                     
+    362|                     </select>
+
+medicamento is not defined
+2024-06-13T02:38:29.009Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T02:38:57.434Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T02:38:57.440Z - ERROR: Error capturado en el middleware: C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-profesional\prescripcion.ejs:359
+    357|                     >
+    358|                     <option value="">Selecciona una opción</option>
+ >> 359|                     <%= medicamento.nombre_generico %>
+    360|                     </select>
+    361|                   </div>
+    362|                   <div class="mb-4">
+
+medicamento is not defined
+2024-06-13T02:39:06.277Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T02:42:08.933Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T02:42:32.111Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T02:42:32.124Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T02:42:32.124Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T02:42:36.174Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T02:42:41.604Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T02:42:41.616Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T02:42:41.616Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T02:44:24.960Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T02:44:24.972Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T02:44:24.972Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T02:44:29.260Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T02:44:37.004Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T02:44:37.017Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T02:44:37.018Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T02:44:39.500Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T02:45:11.710Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T02:45:11.725Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T02:45:11.726Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T02:45:15.903Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T02:45:15.915Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T02:45:15.915Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T02:45:18.225Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T02:45:18.238Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T02:45:18.239Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T02:45:19.798Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T02:45:19.812Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T02:45:19.812Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T02:45:23.599Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T02:45:23.612Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T02:45:23.612Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T02:45:26.822Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T02:45:26.835Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T02:45:26.836Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T02:50:26.828Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T02:52:06.189Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T02:53:11.055Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T02:57:38.312Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T03:06:23.540Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T03:12:44.320Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T03:12:55.515Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T03:15:31.678Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T03:23:17.244Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T03:24:35.683Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T03:24:44.133Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T03:27:46.294Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T03:31:08.116Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T04:04:12.326Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T04:05:00.614Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T04:07:10.933Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T04:10:24.252Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T04:18:07.007Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T04:20:52.279Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T04:26:52.144Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T04:30:01.816Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T05:07:22.850Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T05:07:22.863Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T05:07:22.863Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T05:07:28.160Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T05:07:28.172Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T05:07:28.172Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T05:08:43.328Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T05:08:43.340Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T05:08:43.340Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T05:08:45.802Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T05:08:45.814Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T05:08:45.814Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T05:09:16.818Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T05:09:16.833Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T05:09:16.833Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T05:09:25.391Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T05:09:25.403Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T05:09:25.404Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T05:12:08.922Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T05:12:08.934Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T05:12:08.934Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T05:12:29.246Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T05:12:29.259Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T05:12:29.259Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T05:12:33.779Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T05:12:33.791Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T05:12:33.791Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T05:12:34.931Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T05:12:34.944Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T05:12:34.944Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T05:12:39.270Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T05:12:39.281Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T05:12:39.281Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T05:12:40.808Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T05:12:40.821Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T05:12:40.822Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T13:53:04.515Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T13:53:04.528Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T13:53:04.528Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T13:53:09.171Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T13:53:09.184Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T13:53:09.184Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T13:53:11.373Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T13:53:11.387Z - LOG: Solicitud entrante: GET /login
+2024-06-13T13:53:15.254Z - LOG: Solicitud entrante: POST /auth/login
+2024-06-13T13:53:15.254Z - LOG: Datos recibidos para login: 
+2024-06-13T13:53:15.311Z - LOG: Usuario autenticado con éxito: 
+2024-06-13T13:53:15.331Z - LOG: Solicitud entrante: GET /dashboard
+2024-06-13T13:53:20.211Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T14:00:26.255Z - LOG: Solicitud entrante: GET /auth/logout
+2024-06-13T14:00:26.263Z - LOG: Solicitud entrante: GET /login
+2024-06-13T14:00:29.086Z - LOG: Solicitud entrante: POST /auth/login
+2024-06-13T14:00:29.087Z - LOG: Datos recibidos para login: 
+2024-06-13T14:00:29.142Z - LOG: Usuario autenticado con éxito: 
+2024-06-13T14:00:29.162Z - LOG: Solicitud entrante: GET /dashboard-admin
+2024-06-13T14:00:31.536Z - LOG: Solicitud entrante: GET /registro-medicamentos-admin
+2024-06-13T14:00:34.524Z - LOG: Solicitud entrante: GET /otorgar-roles
+2024-06-13T14:00:34.613Z - LOG: Solicitud entrante: GET /api/users
+2024-06-13T14:00:36.486Z - LOG: Solicitud entrante: GET /registro-pacientes-admin
+2024-06-13T14:00:36.568Z - LOG: Solicitud entrante: GET /api/pacientes
+2024-06-13T14:00:39.030Z - LOG: Solicitud entrante: GET /editar-usuarios
+2024-06-13T14:00:39.107Z - LOG: Solicitud entrante: GET /api/users
+2024-06-13T14:02:38.816Z - LOG: Solicitud entrante: GET /otorgar-roles
+2024-06-13T14:02:38.891Z - LOG: Solicitud entrante: GET /api/users
+2024-06-13T14:03:07.043Z - LOG: Solicitud entrante: GET /ver-perfil-admin
+2024-06-13T14:03:13.742Z - LOG: Solicitud entrante: GET /historial-recetas-admin
+2024-06-13T14:03:14.739Z - LOG: Solicitud entrante: GET /registro-medicamentos-admin
+2024-06-13T14:03:24.209Z - LOG: Solicitud entrante: GET /auth/logout
+2024-06-13T14:03:24.216Z - LOG: Solicitud entrante: GET /login
+2024-06-13T14:03:30.325Z - LOG: Solicitud entrante: POST /auth/login
+2024-06-13T14:03:30.326Z - LOG: Datos recibidos para login: 
+2024-06-13T14:03:30.381Z - LOG: Usuario autenticado con éxito: 
+2024-06-13T14:03:30.398Z - LOG: Solicitud entrante: GET /dashboard
+2024-06-13T14:03:35.116Z - LOG: Solicitud entrante: GET /gestion-pacientes
+2024-06-13T14:03:35.186Z - LOG: Solicitud entrante: GET /api/pacientes
+2024-06-13T14:03:44.794Z - LOG: Solicitud entrante: GET /gestion-pacientes
+2024-06-13T14:03:44.860Z - LOG: Solicitud entrante: GET /api/pacientes
+2024-06-13T14:03:45.366Z - LOG: Solicitud entrante: GET /registro-medicamentos
+2024-06-13T14:03:46.497Z - LOG: Solicitud entrante: GET /medicamentos/3
+2024-06-13T14:03:48.983Z - LOG: Solicitud entrante: GET /medicamentos/12
+2024-06-13T14:03:50.898Z - LOG: Solicitud entrante: GET /medicamentos/2
+2024-06-13T14:03:59.403Z - LOG: Solicitud entrante: GET /gestion-pacientes
+2024-06-13T14:03:59.500Z - LOG: Solicitud entrante: GET /api/pacientes
+2024-06-13T14:04:01.371Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T14:04:02.491Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T14:05:46.802Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T14:05:46.814Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T14:05:46.814Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T14:19:55.094Z - LOG: Solicitud entrante: GET /api/historial-recetas
+2024-06-13T14:20:46.855Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T14:20:46.869Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T14:20:46.869Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T14:24:58.642Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T14:24:58.655Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T14:24:58.655Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T14:25:04.410Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T14:25:04.423Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T14:25:04.424Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T14:25:15.665Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T14:25:15.678Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T14:25:15.678Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T14:29:24.400Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T14:29:24.413Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T14:29:24.413Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T14:34:19.824Z - LOG: Solicitud entrante: GET /api/historial-recetas
+2024-06-13T15:22:01.695Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T15:22:01.709Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T15:22:01.709Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T15:27:22.016Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T15:27:22.030Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T15:27:22.030Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T15:39:28.743Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T15:39:28.759Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T15:39:28.759Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T15:39:33.223Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T15:39:36.412Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T15:39:36.417Z - ERROR: Error capturado en el middleware: C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-profesional\historial-recetas.ejs:229
+    227|               </thead>
+    228|               <tbody>
+ >> 229|                 <% recetas.forEach((receta) => { %>
+    230|                 <tr>
+    231|                   <td class="py-2 px-4 border-b border-gray-200">
+    232|                     <%= receta.prescripcion_id %>
+
+recetas is not defined
+2024-06-13T15:41:53.647Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T15:41:53.661Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T15:41:53.661Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T15:41:56.462Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T15:41:58.231Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T15:41:58.235Z - ERROR: Error capturado en el middleware: C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-profesional\historial-recetas.ejs:229
+    227|               </thead>
+    228|               <tbody>
+ >> 229|                 <% recetas.forEach((receta) => { %>
+    230|                 <tr>
+    231|                   <td class="py-2 px-4 border-b border-gray-200">
+    232|                     <%= receta.prescripcion_id %>
+
+recetas is not defined
+2024-06-13T15:46:45.281Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T15:46:45.296Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T15:46:45.296Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T15:46:49.613Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T15:46:49.622Z - ERROR: Error capturado en el middleware: C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-profesional\historial-recetas.ejs:229
+    227|               </thead>
+    228|               <tbody>
+ >> 229|                 <% recetas.forEach((receta) => { %>
+    230|                 <tr>
+    231|                   <td class="py-2 px-4 border-b border-gray-200">
+    232|                     <%= receta.prescripcion_id %>
+
+recetas is not defined
+2024-06-13T17:15:01.968Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T17:15:01.982Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T17:15:01.982Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T17:15:02.900Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T17:15:02.912Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T17:15:02.913Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T17:15:05.851Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T17:15:05.861Z - ERROR: Error capturado en el middleware: C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-profesional\historial-recetas.ejs:229
+    227|               </thead>
+    228|               <tbody>
+ >> 229|                 <% recetas.forEach((receta) => { %>
+    230|                 <tr>
+    231|                   <td class="py-2 px-4 border-b border-gray-200">
+    232|                     <%= receta.prescripcion_id %>
+
+recetas is not defined
+2024-06-13T17:15:51.955Z - LOG: Solicitud entrante: GET /dash-profesional/historial-recetas
+2024-06-13T17:16:00.673Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T17:16:00.676Z - ERROR: Error capturado en el middleware: C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-profesional\historial-recetas.ejs:229
+    227|               </thead>
+    228|               <tbody>
+ >> 229|                 <% recetas.forEach((receta) => { %>
+    230|                 <tr>
+    231|                   <td class="py-2 px-4 border-b border-gray-200">
+    232|                     <%= receta.prescripcion_id %>
+
+recetas is not defined
+2024-06-13T17:17:13.569Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T17:17:13.583Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T17:17:13.583Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T17:17:16.746Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T17:17:16.758Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T17:17:16.759Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T17:17:19.309Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T17:17:19.318Z - ERROR: Error capturado en el middleware: C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-profesional\historial-recetas.ejs:229
+    227|               </thead>
+    228|               <tbody>
+ >> 229|                 <% recetas.forEach((receta) => { %>
+    230|                 <tr>
+    231|                   <td class="py-2 px-4 border-b border-gray-200">
+    232|                     <%= receta.prescripcion_id %>
+
+recetas is not defined
+2024-06-13T17:17:24.409Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T17:17:24.422Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T17:17:24.422Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T17:17:41.496Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T17:17:41.511Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T17:17:41.512Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T17:17:47.491Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T17:17:47.504Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T17:17:47.504Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T17:17:55.666Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T17:17:55.678Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T17:17:55.678Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T17:18:06.304Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T17:18:06.316Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T17:18:06.317Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T17:18:12.181Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T17:18:12.196Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T17:18:12.196Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T17:36:43.397Z - LOG: Solicitud entrante: GET /dashboard
+2024-06-13T17:36:44.345Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T17:36:46.308Z - LOG: Solicitud entrante: GET /registro-medicamentos
+2024-06-13T17:36:46.861Z - LOG: Solicitud entrante: GET /medicamentos/6
+2024-06-13T17:36:48.740Z - LOG: Solicitud entrante: GET /medicamentos/5
+2024-06-13T17:36:50.376Z - LOG: Solicitud entrante: GET /medicamentos/6
+2024-06-13T17:37:02.396Z - LOG: Solicitud entrante: GET /medicamentos/23
+2024-06-13T17:39:01.476Z - LOG: Solicitud entrante: GET /
+2024-06-13T17:39:01.541Z - LOG: Solicitud entrante: GET /index.css
+2024-06-13T17:39:01.542Z - LOG: Solicitud entrante: GET /assets/logo.png
+2024-06-13T17:39:01.544Z - LOG: Solicitud entrante: GET /index.js
+2024-06-13T17:39:02.195Z - LOG: Solicitud entrante: GET /assets/2.jpg
+2024-06-13T17:39:02.196Z - LOG: Solicitud entrante: GET /assets/1.jpg
+2024-06-13T17:39:02.197Z - LOG: Solicitud entrante: GET /assets/3.jpg
+2024-06-13T17:39:02.199Z - LOG: Solicitud entrante: GET /assets/4.jpeg
+2024-06-13T17:39:02.200Z - LOG: Solicitud entrante: GET /assets/5.jpg
+2024-06-13T17:39:42.683Z - LOG: Solicitud entrante: GET /index.css
+2024-06-13T17:39:51.672Z - LOG: Solicitud entrante: GET /
+2024-06-13T17:39:51.715Z - LOG: Solicitud entrante: GET /index.css
+2024-06-13T17:39:51.717Z - LOG: Solicitud entrante: GET /assets/logo.png
+2024-06-13T17:39:51.718Z - LOG: Solicitud entrante: GET /index.js
+2024-06-13T17:39:51.744Z - LOG: Solicitud entrante: GET /assets/2.jpg
+2024-06-13T17:39:51.744Z - LOG: Solicitud entrante: GET /assets/1.jpg
+2024-06-13T17:39:51.746Z - LOG: Solicitud entrante: GET /assets/3.jpg
+2024-06-13T17:39:51.747Z - LOG: Solicitud entrante: GET /assets/4.jpeg
+2024-06-13T17:39:51.748Z - LOG: Solicitud entrante: GET /assets/5.jpg
+2024-06-13T17:39:51.886Z - LOG: Solicitud entrante: GET /assets/icon.ico
+2024-06-13T17:39:52.092Z - LOG: Solicitud entrante: GET /
+2024-06-13T17:39:52.124Z - LOG: Solicitud entrante: GET /index.css
+2024-06-13T17:39:52.125Z - LOG: Solicitud entrante: GET /assets/logo.png
+2024-06-13T17:39:52.126Z - LOG: Solicitud entrante: GET /index.js
+2024-06-13T17:39:52.133Z - LOG: Solicitud entrante: GET /assets/2.jpg
+2024-06-13T17:39:52.134Z - LOG: Solicitud entrante: GET /assets/1.jpg
+2024-06-13T17:39:52.134Z - LOG: Solicitud entrante: GET /assets/3.jpg
+2024-06-13T17:39:52.135Z - LOG: Solicitud entrante: GET /assets/4.jpeg
+2024-06-13T17:39:52.136Z - LOG: Solicitud entrante: GET /assets/5.jpg
+2024-06-13T17:39:52.232Z - LOG: Solicitud entrante: GET /assets/icon.ico
+2024-06-13T17:39:52.609Z - LOG: Solicitud entrante: GET /
+2024-06-13T17:39:52.644Z - LOG: Solicitud entrante: GET /index.css
+2024-06-13T17:39:52.645Z - LOG: Solicitud entrante: GET /assets/logo.png
+2024-06-13T17:39:52.646Z - LOG: Solicitud entrante: GET /index.js
+2024-06-13T17:39:52.654Z - LOG: Solicitud entrante: GET /assets/2.jpg
+2024-06-13T17:39:52.655Z - LOG: Solicitud entrante: GET /assets/1.jpg
+2024-06-13T17:39:52.656Z - LOG: Solicitud entrante: GET /assets/3.jpg
+2024-06-13T17:39:52.656Z - LOG: Solicitud entrante: GET /assets/4.jpeg
+2024-06-13T17:39:52.657Z - LOG: Solicitud entrante: GET /assets/5.jpg
+2024-06-13T17:39:52.673Z - LOG: Solicitud entrante: GET /assets/icon.ico
+2024-06-13T17:39:53.688Z - LOG: Solicitud entrante: GET /
+2024-06-13T17:39:53.724Z - LOG: Solicitud entrante: GET /index.css
+2024-06-13T17:39:53.725Z - LOG: Solicitud entrante: GET /assets/logo.png
+2024-06-13T17:39:53.726Z - LOG: Solicitud entrante: GET /index.js
+2024-06-13T17:39:53.734Z - LOG: Solicitud entrante: GET /assets/2.jpg
+2024-06-13T17:39:53.736Z - LOG: Solicitud entrante: GET /assets/1.jpg
+2024-06-13T17:39:53.737Z - LOG: Solicitud entrante: GET /assets/3.jpg
+2024-06-13T17:39:53.738Z - LOG: Solicitud entrante: GET /assets/4.jpeg
+2024-06-13T17:39:53.738Z - LOG: Solicitud entrante: GET /assets/5.jpg
+2024-06-13T17:39:53.825Z - LOG: Solicitud entrante: GET /assets/icon.ico
+2024-06-13T17:39:54.236Z - LOG: Solicitud entrante: GET /
+2024-06-13T17:39:54.271Z - LOG: Solicitud entrante: GET /index.css
+2024-06-13T17:39:54.272Z - LOG: Solicitud entrante: GET /assets/logo.png
+2024-06-13T17:39:54.273Z - LOG: Solicitud entrante: GET /index.js
+2024-06-13T17:39:54.280Z - LOG: Solicitud entrante: GET /assets/2.jpg
+2024-06-13T17:39:54.282Z - LOG: Solicitud entrante: GET /assets/1.jpg
+2024-06-13T17:39:54.283Z - LOG: Solicitud entrante: GET /assets/3.jpg
+2024-06-13T17:39:54.283Z - LOG: Solicitud entrante: GET /assets/4.jpeg
+2024-06-13T17:39:54.284Z - LOG: Solicitud entrante: GET /assets/5.jpg
+2024-06-13T17:39:54.479Z - LOG: Solicitud entrante: GET /assets/icon.ico
+2024-06-13T17:39:54.539Z - LOG: Solicitud entrante: GET /
+2024-06-13T17:39:54.572Z - LOG: Solicitud entrante: GET /index.css
+2024-06-13T17:39:54.573Z - LOG: Solicitud entrante: GET /assets/logo.png
+2024-06-13T17:39:54.573Z - LOG: Solicitud entrante: GET /index.js
+2024-06-13T17:39:54.585Z - LOG: Solicitud entrante: GET /assets/2.jpg
+2024-06-13T17:39:54.587Z - LOG: Solicitud entrante: GET /assets/1.jpg
+2024-06-13T17:39:54.588Z - LOG: Solicitud entrante: GET /assets/3.jpg
+2024-06-13T17:39:54.589Z - LOG: Solicitud entrante: GET /assets/4.jpeg
+2024-06-13T17:39:54.591Z - LOG: Solicitud entrante: GET /assets/5.jpg
+2024-06-13T17:39:54.712Z - LOG: Solicitud entrante: GET /assets/icon.ico
+2024-06-13T17:39:54.841Z - LOG: Solicitud entrante: GET /
+2024-06-13T17:39:54.877Z - LOG: Solicitud entrante: GET /index.css
+2024-06-13T17:39:54.878Z - LOG: Solicitud entrante: GET /assets/logo.png
+2024-06-13T17:39:54.879Z - LOG: Solicitud entrante: GET /index.js
+2024-06-13T17:39:54.884Z - LOG: Solicitud entrante: GET /assets/2.jpg
+2024-06-13T17:39:54.886Z - LOG: Solicitud entrante: GET /assets/1.jpg
+2024-06-13T17:39:54.886Z - LOG: Solicitud entrante: GET /assets/3.jpg
+2024-06-13T17:39:54.887Z - LOG: Solicitud entrante: GET /assets/4.jpeg
+2024-06-13T17:39:54.887Z - LOG: Solicitud entrante: GET /assets/5.jpg
+2024-06-13T17:39:54.982Z - LOG: Solicitud entrante: GET /assets/icon.ico
+2024-06-13T17:40:02.995Z - LOG: Solicitud entrante: GET /
+2024-06-13T17:40:03.036Z - LOG: Solicitud entrante: GET /index.css
+2024-06-13T17:40:03.037Z - LOG: Solicitud entrante: GET /assets/logo.png
+2024-06-13T17:40:03.037Z - LOG: Solicitud entrante: GET /index.js
+2024-06-13T17:40:03.042Z - LOG: Solicitud entrante: GET /assets/2.jpg
+2024-06-13T17:40:03.043Z - LOG: Solicitud entrante: GET /assets/1.jpg
+2024-06-13T17:40:03.044Z - LOG: Solicitud entrante: GET /assets/3.jpg
+2024-06-13T17:40:03.046Z - LOG: Solicitud entrante: GET /assets/4.jpeg
+2024-06-13T17:40:03.046Z - LOG: Solicitud entrante: GET /assets/5.jpg
+2024-06-13T17:40:03.146Z - LOG: Solicitud entrante: GET /assets/icon.ico
+2024-06-13T17:40:25.565Z - LOG: Solicitud entrante: GET /
+2024-06-13T17:40:25.601Z - LOG: Solicitud entrante: GET /index.css
+2024-06-13T17:40:25.602Z - LOG: Solicitud entrante: GET /assets/logo.png
+2024-06-13T17:40:25.603Z - LOG: Solicitud entrante: GET /index.js
+2024-06-13T17:40:25.607Z - LOG: Solicitud entrante: GET /assets/2.jpg
+2024-06-13T17:40:25.608Z - LOG: Solicitud entrante: GET /assets/1.jpg
+2024-06-13T17:40:25.609Z - LOG: Solicitud entrante: GET /assets/3.jpg
+2024-06-13T17:40:25.611Z - LOG: Solicitud entrante: GET /assets/4.jpeg
+2024-06-13T17:40:25.614Z - LOG: Solicitud entrante: GET /assets/5.jpg
+2024-06-13T17:40:25.722Z - LOG: Solicitud entrante: GET /assets/icon.ico
+2024-06-13T17:40:35.308Z - LOG: Solicitud entrante: GET /
+2024-06-13T17:40:35.345Z - LOG: Solicitud entrante: GET /index.css
+2024-06-13T17:40:35.346Z - LOG: Solicitud entrante: GET /assets/logo.png
+2024-06-13T17:40:35.346Z - LOG: Solicitud entrante: GET /index.js
+2024-06-13T17:40:35.353Z - LOG: Solicitud entrante: GET /assets/2.jpg
+2024-06-13T17:40:35.354Z - LOG: Solicitud entrante: GET /assets/1.jpg
+2024-06-13T17:40:35.355Z - LOG: Solicitud entrante: GET /assets/3.jpg
+2024-06-13T17:40:35.356Z - LOG: Solicitud entrante: GET /assets/4.jpeg
+2024-06-13T17:40:35.358Z - LOG: Solicitud entrante: GET /assets/5.jpg
+2024-06-13T17:40:35.512Z - LOG: Solicitud entrante: GET /
+2024-06-13T17:40:35.513Z - LOG: Solicitud entrante: GET /assets/icon.ico
+2024-06-13T17:40:35.552Z - LOG: Solicitud entrante: GET /index.css
+2024-06-13T17:40:35.553Z - LOG: Solicitud entrante: GET /assets/logo.png
+2024-06-13T17:40:35.554Z - LOG: Solicitud entrante: GET /index.js
+2024-06-13T17:40:35.561Z - LOG: Solicitud entrante: GET /assets/2.jpg
+2024-06-13T17:40:35.562Z - LOG: Solicitud entrante: GET /assets/1.jpg
+2024-06-13T17:40:35.562Z - LOG: Solicitud entrante: GET /assets/3.jpg
+2024-06-13T17:40:35.563Z - LOG: Solicitud entrante: GET /assets/4.jpeg
+2024-06-13T17:40:35.563Z - LOG: Solicitud entrante: GET /assets/5.jpg
+2024-06-13T17:40:35.664Z - LOG: Solicitud entrante: GET /assets/icon.ico
+2024-06-13T17:40:35.826Z - LOG: Solicitud entrante: GET /
+2024-06-13T17:40:35.861Z - LOG: Solicitud entrante: GET /index.css
+2024-06-13T17:40:35.862Z - LOG: Solicitud entrante: GET /assets/logo.png
+2024-06-13T17:40:35.862Z - LOG: Solicitud entrante: GET /index.js
+2024-06-13T17:40:35.868Z - LOG: Solicitud entrante: GET /assets/2.jpg
+2024-06-13T17:40:35.870Z - LOG: Solicitud entrante: GET /assets/1.jpg
+2024-06-13T17:40:35.870Z - LOG: Solicitud entrante: GET /assets/3.jpg
+2024-06-13T17:40:35.871Z - LOG: Solicitud entrante: GET /assets/4.jpeg
+2024-06-13T17:40:35.871Z - LOG: Solicitud entrante: GET /assets/5.jpg
+2024-06-13T17:40:35.967Z - LOG: Solicitud entrante: GET /assets/icon.ico
+2024-06-13T17:41:14.520Z - LOG: Solicitud entrante: GET /login
+2024-06-13T17:41:18.807Z - LOG: Solicitud entrante: POST /auth/login
+2024-06-13T17:41:18.807Z - LOG: Datos recibidos para login: 
+2024-06-13T17:41:18.864Z - LOG: Usuario autenticado con éxito: 
+2024-06-13T17:41:18.883Z - LOG: Solicitud entrante: GET /dashboard-admin
+2024-06-13T17:41:21.447Z - LOG: Solicitud entrante: GET /dashboard-admin
+2024-06-13T17:41:22.294Z - LOG: Solicitud entrante: GET /registro-medicamentos-admin
+2024-06-13T17:41:23.879Z - LOG: Solicitud entrante: GET /medicamentos/2
+2024-06-13T17:41:25.793Z - LOG: Solicitud entrante: GET /medicamentos/1
+2024-06-13T17:41:29.790Z - LOG: Solicitud entrante: GET /registro-pacientes-admin
+2024-06-13T17:41:29.863Z - LOG: Solicitud entrante: GET /api/pacientes
+2024-06-13T17:41:32.258Z - LOG: Solicitud entrante: GET /otorgar-roles
+2024-06-13T17:41:32.331Z - LOG: Solicitud entrante: GET /api/users
+2024-06-13T17:41:35.181Z - LOG: Solicitud entrante: GET /editar-usuarios
+2024-06-13T17:41:35.261Z - LOG: Solicitud entrante: GET /api/users
+2024-06-13T17:41:38.192Z - LOG: Solicitud entrante: GET /auth/logout
+2024-06-13T17:41:38.199Z - LOG: Solicitud entrante: GET /login
+2024-06-13T19:56:43.755Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T19:56:43.767Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T19:56:43.767Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T19:57:26.604Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T19:57:26.617Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T19:57:26.617Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T19:57:40.708Z - LOG: Solicitud entrante: GET /registro-medicamentos
+2024-06-13T19:57:40.720Z - LOG: Solicitud entrante: GET /login
+2024-06-13T19:57:44.992Z - LOG: Solicitud entrante: POST /auth/login
+2024-06-13T19:57:44.992Z - LOG: Datos recibidos para login: 
+2024-06-13T19:57:45.051Z - LOG: Usuario autenticado con éxito: 
+2024-06-13T19:57:45.071Z - LOG: Solicitud entrante: GET /dashboard
+2024-06-13T19:57:46.313Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T19:57:46.317Z - ERROR: Error capturado en el middleware: Failed to lookup view "dash-profesional/historial-recetas" in views directories "C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\login", "C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-profesional", "C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-usuario" or "C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-admin"
+2024-06-13T19:58:26.707Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T19:58:26.721Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T19:58:26.722Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T20:00:14.598Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T20:00:14.614Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T20:00:14.615Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T20:00:16.807Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T20:00:16.818Z - ERROR: Error capturado en el middleware: Failed to lookup view "dash-profesional/historial-recetas" in views directories "C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\login", "C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-profesional", "C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-usuario" or "C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-admin"
+2024-06-13T20:02:08.575Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T20:02:08.588Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T20:02:08.589Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T20:02:23.919Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T20:02:23.932Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T20:02:23.932Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T20:02:26.732Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T20:02:26.741Z - ERROR: Error capturado en el middleware: Failed to lookup view "dash-profesional/historial-recetas" in views directories "C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\login", "C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-profesional", "C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-usuario" or "C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-admin"
+2024-06-13T20:02:40.346Z - LOG: Solicitud entrante: GET /dashboard
+2024-06-13T20:02:41.092Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T20:02:41.096Z - ERROR: Error capturado en el middleware: Failed to lookup view "dash-profesional/historial-recetas" in views directories "C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\login", "C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-profesional", "C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-usuario" or "C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-admin"
+2024-06-13T20:07:00.907Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T20:07:00.919Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T20:07:00.919Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T20:07:10.028Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T20:07:10.041Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T20:07:10.041Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T20:07:11.897Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T20:07:11.906Z - ERROR: Error capturado en el middleware: Failed to lookup view "dash-profesional/historial-recetas" in views directories "C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\login", "C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-profesional", "C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-usuario" or "C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-admin"
+2024-06-13T20:11:05.260Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T20:11:05.274Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T20:11:05.274Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T20:11:08.989Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T20:11:09.004Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T20:11:09.004Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T20:11:22.943Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T20:11:22.952Z - ERROR: Error capturado en el middleware: C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-profesional\historial-recetas.ejs:229
+    227|               </thead>
+    228|               <tbody>
+ >> 229|                 <% recetas.forEach((receta) => { %>
+    230|                 <tr>
+    231|                   <td class="py-2 px-4 border-b border-gray-200">
+    232|                     <%= receta.prescripcion_id %>
+
+recetas is not defined
+2024-06-13T20:16:30.085Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T20:16:30.099Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T20:16:30.099Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T20:18:16.901Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T20:18:16.913Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T20:18:16.913Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T20:18:31.001Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T20:18:31.013Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T20:18:31.013Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T20:18:33.027Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T20:18:33.041Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T20:18:33.041Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T20:19:36.179Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T20:19:36.192Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T20:19:36.192Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T20:20:00.616Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T20:20:00.627Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T20:20:00.628Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T20:20:03.937Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T20:20:03.947Z - LOG: Solicitud entrante: GET /login
+2024-06-13T20:20:08.004Z - LOG: Solicitud entrante: POST /auth/login
+2024-06-13T20:20:08.005Z - LOG: Datos recibidos para login: 
+2024-06-13T20:20:08.061Z - LOG: Usuario autenticado con éxito: 
+2024-06-13T20:20:08.080Z - LOG: Solicitud entrante: GET /dashboard
+2024-06-13T20:20:09.195Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T20:20:09.202Z - LOG: Solicitud entrante: GET /login
+2024-06-13T20:20:19.553Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T20:20:19.565Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T20:20:19.566Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T20:20:26.030Z - LOG: Solicitud entrante: POST /auth/login
+2024-06-13T20:20:26.031Z - LOG: Datos recibidos para login: 
+2024-06-13T20:20:26.088Z - LOG: Usuario autenticado con éxito: 
+2024-06-13T20:20:26.107Z - LOG: Solicitud entrante: GET /dashboard
+2024-06-13T20:20:35.967Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T20:20:35.979Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T20:20:35.979Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T20:20:38.314Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T20:20:38.326Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T20:20:38.327Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T20:20:41.148Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T20:20:41.161Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T20:20:41.161Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T20:24:25.412Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T20:24:55.674Z - LOG: Solicitud entrante: POST /api/prescripciones/upload
+2024-06-13T20:25:14.243Z - LOG: Solicitud entrante: GET /prescripcion?profesional=medico&paciente=2&obraSocial=Swiss+Medical&plan=310&diagnostico=&fechaPrescripcion=2024-06-03&vigencia=&medicamento=1&concentracion=500mg&formaFarmaceutica=Tableta&via=Oral&frecuenciaNumero=1&frecuenciaIntervalo=8&duracionNumero=1&fechaInicio=2024-06-13&prestacion=Consulta+m%C3%A9dica&indicacion=&lado=N%2FA&justificacion=&fechaInicioPrestacion=2024-06-13&comentarios=
+2024-06-13T20:25:16.381Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T20:25:16.390Z - LOG: Solicitud entrante: GET /login
+2024-06-13T20:25:20.182Z - LOG: Solicitud entrante: POST /auth/login
+2024-06-13T20:25:20.183Z - LOG: Datos recibidos para login: 
+2024-06-13T20:25:20.239Z - LOG: Usuario autenticado con éxito: 
+2024-06-13T20:25:20.259Z - LOG: Solicitud entrante: GET /dashboard
+2024-06-13T20:25:21.425Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T20:25:22.405Z - LOG: Solicitud entrante: GET /registro-medicamentos
+2024-06-13T20:26:32.559Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T20:26:51.359Z - LOG: Solicitud entrante: POST /api/prescripciones/upload
+2024-06-13T20:27:09.653Z - LOG: Solicitud entrante: POST /api/prescripciones/upload
+2024-06-13T20:27:26.869Z - LOG: Solicitud entrante: GET /dashboard
+2024-06-13T20:27:27.295Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T20:42:43.751Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T20:43:07.135Z - LOG: Solicitud entrante: POST /api/prescripciones/upload
+2024-06-13T20:43:13.856Z - LOG: Solicitud entrante: GET /prescripcion?profesional=medico&paciente=1&obraSocial=OSDE&plan=210&diagnostico=&fechaPrescripcion=2024-06-03&vigencia=&medicamento=1&concentracion=500mg&formaFarmaceutica=Tableta&via=Oral&frecuenciaNumero=1&frecuenciaIntervalo=8&duracionNumero=1&fechaInicio=&prestacion=Consulta+m%C3%A9dica&indicacion=&lado=N%2FA&justificacion=&fechaInicioPrestacion=2024-06-13&comentarios=nose
+2024-06-13T20:51:04.256Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T20:51:04.269Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T20:51:04.270Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T20:53:18.314Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T20:53:18.326Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T20:53:18.327Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T20:53:43.052Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T20:53:43.071Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T20:53:43.071Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T20:53:53.086Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T20:53:53.100Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T20:53:53.100Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T20:54:14.479Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T20:54:14.491Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T20:54:14.492Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T20:55:36.833Z - LOG: Solicitud entrante: GET /prescripcion?profesional=medico&paciente=1&obraSocial=OSDE&plan=210&diagnostico=&fechaPrescripcion=2024-06-03&vigencia=&medicamento=1&concentracion=500mg&formaFarmaceutica=Tableta&via=Oral&frecuenciaNumero=1&frecuenciaIntervalo=8&duracionNumero=1&fechaInicio=&prestacion=Consulta+m%C3%A9dica&indicacion=&lado=N%2FA&justificacion=&fechaInicioPrestacion=2024-06-13&comentarios=nose
+2024-06-13T20:55:41.379Z - LOG: Solicitud entrante: GET /dashboard
+2024-06-13T20:55:43.256Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T20:55:44.783Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T20:55:44.784Z - ERROR: Error capturado en el middleware: Cannot read properties of undefined (reading 'id')
+2024-06-13T20:56:02.512Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T20:56:02.524Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T20:56:02.525Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T20:56:04.493Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T20:56:04.495Z - ERROR: Error capturado en el middleware: Cannot read properties of undefined (reading 'id')
+2024-06-13T20:56:18.616Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T20:56:18.629Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T20:56:18.629Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T20:56:33.142Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T20:56:33.144Z - ERROR: Error capturado en el middleware: Cannot read properties of undefined (reading 'id')
+2024-06-13T20:56:39.812Z - LOG: Solicitud entrante: GET /dashboard
+2024-06-13T20:56:40.299Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T20:57:12.048Z - LOG: Solicitud entrante: POST /api/prescripciones/upload
+2024-06-13T20:57:17.007Z - LOG: Solicitud entrante: POST /prescripciones/upload
+2024-06-13T20:58:01.011Z - LOG: Solicitud entrante: GET /prescripciones/upload
+2024-06-13T20:58:03.890Z - LOG: Solicitud entrante: POST /prescripciones/upload
+2024-06-13T20:58:12.108Z - LOG: Solicitud entrante: PUT /prescripciones/upload
+2024-06-13T20:58:15.631Z - LOG: Solicitud entrante: POST /prescripciones/upload
+2024-06-13T20:59:37.594Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T20:59:37.594Z - ERROR: Error capturado en el middleware: Cannot read properties of undefined (reading 'id')
+2024-06-13T21:01:01.775Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:01:01.788Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:01:01.789Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:01:34.895Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:01:34.908Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:01:34.909Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:01:49.812Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:01:49.825Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:01:49.825Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:02:09.959Z - LOG: Solicitud entrante: POST /api/prescripciones/upload
+2024-06-13T21:02:14.372Z - LOG: Solicitud entrante: POST /prescripciones/upload
+2024-06-13T21:02:48.409Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T21:02:48.413Z - ERROR: Error capturado en el middleware: HistorialRecetas is not defined
+2024-06-13T21:03:27.486Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:03:27.499Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:03:27.499Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:03:29.823Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:03:29.835Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:03:29.835Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:03:32.748Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T21:03:32.761Z - ERROR: Error capturado en el middleware: Failed to lookup view "dash-profesional/historial-recetas" in views directories "C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\login", "C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-profesional", "C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-usuario" or "C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-admin"
+2024-06-13T21:04:21.615Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T21:04:21.621Z - LOG: Solicitud entrante: GET /login
+2024-06-13T21:04:30.887Z - LOG: Solicitud entrante: POST /historial-recetas
+2024-06-13T21:04:39.065Z - LOG: Solicitud entrante: PUT /historial-recetas
+2024-06-13T21:04:44.045Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T21:04:44.048Z - LOG: Solicitud entrante: GET /login
+2024-06-13T21:05:39.480Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:05:39.493Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:05:39.493Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:05:40.638Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:05:40.651Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:05:40.651Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:06:26.680Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:06:26.693Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:06:26.693Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:06:29.633Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:06:29.652Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:06:29.652Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:06:30.529Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T21:06:30.535Z - LOG: Solicitud entrante: GET /login
+2024-06-13T21:06:36.597Z - LOG: Solicitud entrante: PUT /historial-recetas
+2024-06-13T21:06:40.366Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T21:06:40.372Z - ERROR: Error capturado en el middleware: Failed to lookup view "dash-profesional/historial-recetas" in views directories "C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\login", "C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-profesional", "C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-usuario" or "C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-admin"
+2024-06-13T21:06:42.434Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T21:07:17.860Z - LOG: Solicitud entrante: POST /api/prescripciones/upload
+2024-06-13T21:07:22.931Z - LOG: Solicitud entrante: POST /prescripciones/upload
+2024-06-13T21:07:22.932Z - ERROR: Error capturado en el middleware: Unexpected end of form
+2024-06-13T21:09:10.988Z - LOG: Solicitud entrante: POST /prescripciones/upload
+2024-06-13T21:12:45.213Z - LOG: Solicitud entrante: POST /api/prescripciones/submit
+2024-06-13T21:12:48.462Z - LOG: Solicitud entrante: PUT /api/prescripciones/submit
+2024-06-13T21:12:50.759Z - LOG: Solicitud entrante: GET /api/prescripciones/submit
+2024-06-13T21:12:58.292Z - LOG: Solicitud entrante: POST /api/prescripciones/submit
+2024-06-13T21:13:06.006Z - LOG: Solicitud entrante: POST /historial-recetas
+2024-06-13T21:13:11.215Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T21:13:11.220Z - LOG: Solicitud entrante: GET /login
+2024-06-13T21:20:47.941Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T21:21:00.678Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T21:21:31.126Z - LOG: Solicitud entrante: POST /api/prescripciones/upload
+2024-06-13T21:21:36.873Z - LOG: Solicitud entrante: POST /prescripciones/upload
+2024-06-13T21:21:36.873Z - ERROR: Error capturado en el middleware: Unexpected end of form
+2024-06-13T21:22:07.425Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T21:22:07.428Z - ERROR: Error capturado en el middleware: Failed to lookup view "dash-profesional/historial-recetas" in views directories "C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\login", "C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-profesional", "C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-usuario" or "C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-admin"
+2024-06-13T21:22:09.258Z - LOG: Solicitud entrante: GET /dashboard
+2024-06-13T21:22:09.788Z - LOG: Solicitud entrante: GET /dashboard
+2024-06-13T21:22:11.113Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T21:24:20.663Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:24:20.678Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:24:20.678Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:24:42.864Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:24:42.877Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:24:42.877Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:24:55.653Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T21:25:09.449Z - LOG: Solicitud entrante: POST /api/prescripciones/upload
+2024-06-13T21:25:14.135Z - LOG: Solicitud entrante: POST /prescripciones/upload
+2024-06-13T21:25:14.137Z - ERROR: Error capturado en el middleware: Unexpected end of form
+2024-06-13T21:25:47.232Z - LOG: Solicitud entrante: GET /dashboard
+2024-06-13T21:25:47.733Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T21:25:47.737Z - ERROR: Error capturado en el middleware: Failed to lookup view "dash-profesional/historial-recetas" in views directories "C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\login", "C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-profesional", "C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-usuario" or "C:\Users\troni\OneDrive\Escritorio\‎\Recetario\frontend\views\dash-admin"
+2024-06-13T21:26:41.790Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T21:26:57.771Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T21:27:12.798Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T21:27:13.647Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T21:27:29.156Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T21:27:29.732Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T21:27:57.353Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T21:28:18.686Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T21:28:27.793Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T21:28:28.211Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T21:28:28.362Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T21:28:45.874Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T21:28:46.466Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T21:28:46.942Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T21:28:51.675Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T21:28:56.267Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T21:29:04.413Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T21:29:15.504Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T21:29:16.135Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T21:29:19.996Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T21:29:20.621Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T21:29:30.207Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T21:29:30.821Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T21:29:40.038Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T21:30:37.262Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T21:30:37.266Z - LOG: Solicitud entrante: GET /login
+2024-06-13T21:31:19.918Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:31:19.931Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:31:19.931Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:31:22.076Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T21:31:23.270Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T21:31:40.610Z - LOG: Solicitud entrante: POST /prescripciones/upload
+2024-06-13T21:31:40.612Z - ERROR: Error capturado en el middleware: Unexpected end of form
+2024-06-13T21:35:01.036Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:35:01.049Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:35:01.050Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:35:09.826Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:35:09.839Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:35:09.839Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:35:43.861Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:35:43.876Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:35:43.876Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:36:07.858Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:36:07.873Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:36:07.873Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:36:09.816Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:36:09.829Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:36:09.829Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:36:20.670Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:36:20.682Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:36:20.683Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:36:21.907Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:36:21.919Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:36:21.919Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:36:23.926Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:36:23.940Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:36:23.940Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:36:45.020Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:36:45.034Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:36:45.034Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:38:45.813Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:38:45.826Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:38:45.826Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:39:14.339Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:39:14.351Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:39:14.352Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:39:17.690Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:39:17.702Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:39:17.703Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:39:20.600Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:39:20.614Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:39:20.615Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:39:23.820Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:39:23.834Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:39:23.834Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:39:27.410Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:39:27.423Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:39:27.423Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:39:36.944Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:39:36.956Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:39:36.957Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:39:40.134Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:39:40.146Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:39:40.146Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:39:45.661Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:39:45.673Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:39:45.674Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:39:46.840Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:39:46.853Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:39:46.853Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:39:53.280Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:39:53.292Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:39:53.293Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:40:00.381Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:40:00.393Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:40:00.394Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:40:07.455Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:40:07.469Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:40:07.469Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:40:17.557Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:40:17.569Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:40:17.569Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:40:19.192Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:40:19.205Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:40:19.206Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:40:21.635Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:40:21.647Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:40:21.648Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:40:33.160Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T21:40:33.166Z - LOG: Solicitud entrante: GET /login
+2024-06-13T21:40:36.744Z - LOG: Solicitud entrante: POST /historial-recetas
+2024-06-13T21:40:39.186Z - LOG: Solicitud entrante: PUT /historial-recetas
+2024-06-13T21:40:42.181Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T21:40:42.184Z - LOG: Solicitud entrante: GET /login
+2024-06-13T21:40:52.930Z - LOG: Solicitud entrante: GET /prescripciones/upload
+2024-06-13T21:41:01.739Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T21:41:32.879Z - LOG: Solicitud entrante: POST /api/prescripciones/upload
+2024-06-13T21:41:38.412Z - LOG: Solicitud entrante: POST /prescripciones/upload
+2024-06-13T21:41:38.413Z - ERROR: Error capturado en el middleware: Unexpected end of form
+2024-06-13T21:49:57.287Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:49:57.300Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:49:57.300Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:49:59.248Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:49:59.261Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:49:59.261Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:50:05.700Z - LOG: Solicitud entrante: POST /prescripciones/upload
+2024-06-13T21:50:05.702Z - ERROR: Error capturado en el middleware: Unexpected end of form
+2024-06-13T21:50:21.222Z - LOG: Solicitud entrante: GET /prescripciones/upload
+2024-06-13T21:50:23.152Z - LOG: Solicitud entrante: POST /prescripciones/upload
+2024-06-13T21:52:25.338Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:52:25.351Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:52:25.351Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:52:26.979Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:52:26.997Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:52:26.998Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:52:43.696Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:52:43.710Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:52:43.711Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:52:44.842Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T21:52:44.855Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T21:52:44.855Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T21:52:57.023Z - LOG: Solicitud entrante: POST /prescripciones/upload
+2024-06-13T21:53:26.221Z - LOG: Solicitud entrante: POST /prescripciones/upload
+2024-06-13T21:53:26.223Z - ERROR: Error capturado en el middleware: Unexpected end of form
+2024-06-13T21:53:46.305Z - LOG: Solicitud entrante: POST /prescripciones/upload
+2024-06-13T21:58:55.428Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T21:59:12.906Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T22:00:53.507Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T22:01:16.724Z - LOG: Solicitud entrante: POST /api/prescripciones/upload
+2024-06-13T22:01:23.367Z - LOG: Solicitud entrante: POST /prescripciones/upload
+2024-06-13T22:01:23.368Z - ERROR: Error capturado en el middleware: Unexpected end of form
+2024-06-13T22:02:15.882Z - LOG: Solicitud entrante: POST /prescripciones/upload
+2024-06-13T22:02:15.883Z - ERROR: Error capturado en el middleware: Unexpected end of form
+2024-06-13T22:02:22.739Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T22:02:23.540Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T22:02:24.463Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T22:02:50.010Z - LOG: Solicitud entrante: POST /prescripciones/upload
+2024-06-13T22:02:50.011Z - ERROR: Error capturado en el middleware: Unexpected end of form
+2024-06-13T22:03:14.301Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T22:14:26.946Z - LOG: Solicitud entrante: POST /prescripciones/upload
+2024-06-13T22:14:30.873Z - LOG: Solicitud entrante: GET /prescripciones/upload
+2024-06-13T22:14:33.972Z - LOG: Solicitud entrante: POST /prescripciones/upload
+2024-06-13T22:14:37.194Z - LOG: Solicitud entrante: POST /prescripciones/uploads
+2024-06-13T22:14:37.198Z - LOG: Solicitud entrante: POST /login
+2024-06-13T22:14:41.252Z - LOG: Solicitud entrante: POST /prescripciones/upload
+2024-06-13T22:20:55.651Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:20:55.664Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:20:55.664Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:21:09.454Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:21:09.466Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:21:09.467Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:21:30.166Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:21:30.180Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:21:30.180Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:21:38.624Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:21:38.636Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:21:38.637Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:21:40.949Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:21:40.962Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:21:40.963Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:22:21.120Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:22:21.134Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:22:21.134Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:24:40.939Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T22:24:42.088Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T22:24:47.699Z - LOG: Solicitud entrante: GET /registro-medicamentos
+2024-06-13T22:24:50.052Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T22:25:16.405Z - LOG: Solicitud entrante: POST /api/prescripciones/upload
+2024-06-13T22:25:25.236Z - LOG: Solicitud entrante: POST /prescripciones/upload
+2024-06-13T22:25:25.238Z - ERROR: Error capturado en el middleware: Unexpected end of form
+2024-06-13T22:26:34.515Z - LOG: Solicitud entrante: POST /prescripciones/upload
+2024-06-13T22:29:17.716Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:29:17.730Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:29:17.730Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:29:55.635Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:29:55.649Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:29:55.649Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:29:57.873Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:29:57.886Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:29:57.886Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:30:18.066Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:30:18.078Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:30:18.078Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:30:27.443Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:30:27.456Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:30:27.456Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:32:37.952Z - LOG: Solicitud entrante: POST /prescripciones/upload
+2024-06-13T22:32:57.763Z - LOG: Solicitud entrante: POST /prescripciones/upload
+2024-06-13T22:32:57.765Z - ERROR: Error capturado en el middleware: Unexpected end of form
+2024-06-13T22:40:20.308Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:40:20.321Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:40:20.321Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:40:21.512Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:40:21.525Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:40:21.525Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:41:14.594Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:41:14.608Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:41:14.608Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:41:16.036Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:41:16.048Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:41:16.049Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:41:19.289Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:41:19.302Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:41:19.302Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:41:21.212Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:41:21.224Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:41:21.225Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:41:24.811Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:41:24.828Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:41:24.828Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:41:52.547Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:41:52.560Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:41:52.560Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:41:58.309Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:41:58.323Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:41:58.323Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:42:00.422Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:42:00.435Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:42:00.435Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:42:02.581Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:42:02.593Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:42:02.593Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:42:04.057Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:42:04.070Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:42:04.070Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:42:11.326Z - LOG: Solicitud entrante: GET /dashboard
+2024-06-13T22:42:11.804Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T22:42:12.143Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T22:42:12.624Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T22:42:42.041Z - LOG: Solicitud entrante: POST /api/prescripciones/upload
+2024-06-13T22:42:45.937Z - LOG: Solicitud entrante: POST /prescripciones/upload
+2024-06-13T22:42:45.939Z - ERROR: Error capturado en el middleware: Unexpected end of form
+2024-06-13T22:43:37.855Z - LOG: Solicitud entrante: POST /prescripciones/upload
+2024-06-13T22:43:48.089Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:43:48.101Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:43:48.101Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:44:15.366Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T22:44:15.681Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T22:44:49.735Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T22:44:50.175Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T22:44:50.345Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T22:45:24.537Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T22:45:34.650Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T22:45:37.966Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T22:45:38.300Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T22:45:38.437Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T22:45:41.103Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T22:45:45.414Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T22:45:52.357Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T22:46:21.428Z - LOG: Solicitud entrante: POST /api/prescripciones/upload
+2024-06-13T22:46:25.807Z - LOG: Solicitud entrante: POST /prescripciones/upload
+2024-06-13T22:46:25.810Z - ERROR: Error capturado en el middleware: Unexpected end of form
+2024-06-13T22:49:01.967Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:49:01.981Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:49:01.981Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:49:06.823Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:49:06.835Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:49:06.836Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:49:09.401Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:49:09.414Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:49:09.415Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:49:11.481Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:49:11.494Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:49:11.494Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:49:14.132Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:49:14.144Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:49:14.145Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:49:16.283Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:49:16.296Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:49:16.297Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:49:20.573Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:49:20.589Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:49:20.589Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:49:50.814Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:49:50.828Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:49:50.828Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:50:12.716Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:50:12.730Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:50:12.730Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:50:17.651Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:50:17.664Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:50:17.665Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:50:49.931Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:50:49.946Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:50:49.947Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:50:54.333Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:50:54.349Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:50:54.350Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:52:27.656Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:52:27.669Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:52:27.669Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:53:01.218Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:53:01.230Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:53:01.230Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:53:03.607Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:53:03.622Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:53:03.622Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:53:43.915Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:53:43.930Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:53:43.930Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:53:52.678Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:53:52.691Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:53:52.691Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:54:11.927Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T22:54:34.517Z - LOG: Solicitud entrante: POST /api/prescripciones/upload
+2024-06-13T22:54:37.094Z - LOG: Solicitud entrante: POST /prescripciones/upload
+2024-06-13T22:54:37.096Z - ERROR: Error capturado en el middleware: Unexpected end of form
+2024-06-13T22:54:55.604Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:54:55.617Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:54:55.618Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:56:01.684Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:56:01.697Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:56:01.698Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:56:09.725Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:56:09.739Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:56:09.740Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:56:28.392Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:56:28.405Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:56:28.405Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:56:36.047Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:56:36.060Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:56:36.060Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:57:16.487Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T22:57:17.107Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T22:57:17.267Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T22:57:17.439Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T22:57:19.290Z - LOG: Solicitud entrante: POST /prescripciones/upload
+2024-06-13T22:57:19.293Z - ERROR: Error capturado en el middleware: Unexpected end of form
+2024-06-13T22:57:36.951Z - LOG: Solicitud entrante: POST /prescripciones/upload
+2024-06-13T22:57:40.233Z - LOG: Solicitud entrante: POST /prescripciones/uploads
+2024-06-13T22:57:40.238Z - LOG: Solicitud entrante: POST /login
+2024-06-13T22:57:43.303Z - LOG: Solicitud entrante: POST /prescripciones/upload
+2024-06-13T22:58:13.611Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:58:13.624Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:58:13.625Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T22:58:15.205Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T22:58:16.405Z - LOG: Solicitud entrante: GET /dashboard
+2024-06-13T22:58:29.095Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T22:58:29.111Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T22:58:29.111Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T23:01:16.499Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T23:01:16.514Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T23:01:16.514Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T23:01:18.462Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T23:01:18.475Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T23:01:18.476Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T23:01:20.475Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T23:01:21.679Z - LOG: Solicitud entrante: GET /dashboard
+2024-06-13T23:01:22.130Z - LOG: Solicitud entrante: GET /prescripcion
+2024-06-13T23:01:22.542Z - LOG: Solicitud entrante: GET /historial-recetas
+2024-06-13T23:01:23.000Z - LOG: Solicitud entrante: GET /registro-medicamentos
+2024-06-13T23:01:24.135Z - LOG: Solicitud entrante: GET /gestion-pacientes
+2024-06-13T23:01:24.255Z - LOG: Solicitud entrante: GET /api/pacientes
+2024-06-13T23:01:25.520Z - LOG: Solicitud entrante: GET /ver-perfil
+2024-06-13T23:01:26.254Z - LOG: Solicitud entrante: GET /configuracion
+2024-06-13T23:01:26.821Z - LOG: Solicitud entrante: GET /ver-perfil
+2024-06-13T23:01:31.884Z - LOG: Solicitud entrante: GET /dashboard
+2024-06-13T23:01:33.016Z - LOG: Solicitud entrante: GET /ver-perfil
+2024-06-13T23:08:43.222Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T23:08:43.235Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T23:08:43.235Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T23:08:46.387Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T23:08:46.399Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T23:08:46.400Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T23:08:49.422Z - LOG: Solicitud entrante: GET /dashboard
+2024-06-13T23:08:51.100Z - LOG: Solicitud entrante: GET /ver-perfil
+2024-06-13T23:08:51.102Z - ERROR: Error capturado en el middleware: User is not defined
+2024-06-13T23:10:55.363Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T23:10:55.376Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T23:10:55.377Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T23:10:58.175Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T23:10:58.191Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T23:10:58.192Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T23:11:36.454Z - LOG: Solicitud entrante: GET /
+2024-06-13T23:11:36.508Z - LOG: Solicitud entrante: GET /index.css
+2024-06-13T23:11:36.510Z - LOG: Solicitud entrante: GET /assets/logo.png
+2024-06-13T23:11:36.513Z - LOG: Solicitud entrante: GET /index.js
+2024-06-13T23:11:36.530Z - LOG: Solicitud entrante: GET /assets/2.jpg
+2024-06-13T23:11:36.531Z - LOG: Solicitud entrante: GET /assets/1.jpg
+2024-06-13T23:11:36.532Z - LOG: Solicitud entrante: GET /assets/3.jpg
+2024-06-13T23:11:36.534Z - LOG: Solicitud entrante: GET /assets/4.jpeg
+2024-06-13T23:11:36.535Z - LOG: Solicitud entrante: GET /assets/5.jpg
+2024-06-13T23:11:40.385Z - LOG: Solicitud entrante: GET /login
+2024-06-13T23:11:43.689Z - LOG: Solicitud entrante: POST /auth/login
+2024-06-13T23:11:43.690Z - LOG: Datos recibidos para login: 
+2024-06-13T23:11:43.748Z - LOG: Usuario autenticado con éxito: 
+2024-06-13T23:11:43.766Z - LOG: Solicitud entrante: GET /dashboard-admin
+2024-06-13T23:11:46.089Z - LOG: Solicitud entrante: GET /editar-usuarios
+2024-06-13T23:11:46.166Z - LOG: Solicitud entrante: GET /api/users
+2024-06-13T23:11:49.382Z - LOG: Solicitud entrante: GET /profesionales/5
+2024-06-13T23:12:41.174Z - LOG: Solicitud entrante: PUT /profesionales/5
+2024-06-13T23:12:41.189Z - LOG: Solicitud entrante: GET /api/users
+2024-06-13T23:12:46.270Z - LOG: Solicitud entrante: GET /auth/logout
+2024-06-13T23:12:46.282Z - LOG: Solicitud entrante: GET /login
+2024-06-13T23:12:50.411Z - LOG: Solicitud entrante: POST /auth/login
+2024-06-13T23:12:50.411Z - LOG: Datos recibidos para login: 
+2024-06-13T23:12:50.465Z - LOG: Usuario autenticado con éxito: 
+2024-06-13T23:12:50.482Z - LOG: Solicitud entrante: GET /dashboard
+2024-06-13T23:12:51.661Z - LOG: Solicitud entrante: GET /ver-perfil
+2024-06-13T23:12:51.662Z - ERROR: Error capturado en el middleware: User is not defined
+2024-06-13T23:12:53.813Z - LOG: Solicitud entrante: GET /dashboard
+2024-06-13T23:14:59.977Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T23:14:59.990Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T23:14:59.990Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T23:15:01.542Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T23:15:01.556Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T23:15:01.557Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T23:15:09.895Z - LOG: Solicitud entrante: GET /dashboard
+2024-06-13T23:15:11.020Z - LOG: Solicitud entrante: GET /ver-perfil
+2024-06-13T23:15:11.022Z - ERROR: Error capturado en el middleware: User is not defined
+2024-06-13T23:16:19.358Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T23:16:19.380Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T23:16:19.381Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T23:16:20.778Z - LOG: Solicitud entrante: GET /ver-perfil
+2024-06-13T23:16:20.782Z - ERROR: Error capturado en el middleware: User is not defined
+2024-06-13T23:16:25.528Z - LOG: Solicitud entrante: GET /dashboard
+2024-06-13T23:16:28.678Z - LOG: Solicitud entrante: GET /gestion-pacientes
+2024-06-13T23:16:28.757Z - LOG: Solicitud entrante: GET /api/pacientes
+2024-06-13T23:16:34.234Z - LOG: Solicitud entrante: GET /auth/logout
+2024-06-13T23:16:34.243Z - LOG: Solicitud entrante: GET /login
+2024-06-13T23:16:37.784Z - LOG: Solicitud entrante: POST /auth/login
+2024-06-13T23:16:37.785Z - LOG: Datos recibidos para login: 
+2024-06-13T23:16:37.840Z - LOG: Usuario autenticado con éxito: 
+2024-06-13T23:16:37.857Z - LOG: Solicitud entrante: GET /dashboard-admin
+2024-06-13T23:16:41.880Z - LOG: Solicitud entrante: GET /ver-perfil-admin
+2024-06-13T23:16:43.782Z - LOG: Solicitud entrante: GET /registro-pacientes-admin
+2024-06-13T23:16:43.851Z - LOG: Solicitud entrante: GET /api/pacientes
+2024-06-13T23:16:50.952Z - LOG: Solicitud entrante: GET /editar-usuarios
+2024-06-13T23:16:51.018Z - LOG: Solicitud entrante: GET /api/users
+2024-06-13T23:16:54.922Z - LOG: Solicitud entrante: GET /profesionales/5
+2024-06-13T23:17:12.813Z - LOG: Solicitud entrante: PUT /profesionales/5
+2024-06-13T23:17:12.820Z - LOG: Solicitud entrante: GET /api/users
+2024-06-13T23:19:17.288Z - LOG: Solicitud entrante: GET /profesionales/16
+2024-06-13T23:19:20.017Z - LOG: Solicitud entrante: GET /registro-pacientes-admin
+2024-06-13T23:19:20.177Z - LOG: Solicitud entrante: GET /api/pacientes
+2024-06-13T23:19:21.807Z - LOG: Solicitud entrante: GET /otorgar-roles
+2024-06-13T23:19:21.918Z - LOG: Solicitud entrante: GET /api/users
+2024-06-13T23:20:35.161Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T23:20:35.178Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T23:20:35.178Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T23:20:44.330Z - LOG: Solicitud entrante: GET /index.html
+2024-06-13T23:20:44.395Z - LOG: Solicitud entrante: GET /index.css
+2024-06-13T23:20:44.397Z - LOG: Solicitud entrante: GET /assets/logo.png
+2024-06-13T23:20:44.399Z - LOG: Solicitud entrante: GET /index.js
+2024-06-13T23:20:44.442Z - LOG: Solicitud entrante: GET /assets/2.jpg
+2024-06-13T23:20:44.443Z - LOG: Solicitud entrante: GET /assets/1.jpg
+2024-06-13T23:20:44.444Z - LOG: Solicitud entrante: GET /assets/3.jpg
+2024-06-13T23:20:44.446Z - LOG: Solicitud entrante: GET /assets/4.jpeg
+2024-06-13T23:20:44.448Z - LOG: Solicitud entrante: GET /assets/5.jpg
+2024-06-13T23:20:47.196Z - LOG: Solicitud entrante: GET /login
+2024-06-13T23:20:49.838Z - LOG: Solicitud entrante: POST /auth/login
+2024-06-13T23:20:49.839Z - LOG: Datos recibidos para login: 
+2024-06-13T23:20:49.896Z - LOG: Usuario autenticado con éxito: 
+2024-06-13T23:20:49.915Z - LOG: Solicitud entrante: GET /dashboard-admin
+2024-06-13T23:20:53.427Z - LOG: Solicitud entrante: GET /auth/logout
+2024-06-13T23:20:53.438Z - LOG: Solicitud entrante: GET /login
+2024-06-13T23:22:04.254Z - LOG: Solicitud entrante: POST /auth/register
+2024-06-13T23:22:04.254Z - LOG: Datos recibidos para registro: 
+2024-06-13T23:22:04.310Z - LOG: Usuario creado con éxito: 
+2024-06-13T23:22:08.779Z - LOG: Solicitud entrante: POST /auth/login
+2024-06-13T23:22:08.780Z - LOG: Datos recibidos para login: 
+2024-06-13T23:22:08.834Z - LOG: Usuario autenticado con éxito: 
+2024-06-13T23:22:08.855Z - LOG: Solicitud entrante: GET /dashboard-admin
+2024-06-13T23:22:12.412Z - LOG: Solicitud entrante: GET /editar-usuarios
+2024-06-13T23:22:12.488Z - LOG: Solicitud entrante: GET /api/users
+2024-06-13T23:22:17.556Z - LOG: Solicitud entrante: GET /api/users/21
+2024-06-13T23:22:21.626Z - LOG: Solicitud entrante: GET /otorgar-roles
+2024-06-13T23:22:21.688Z - LOG: Solicitud entrante: GET /api/users
+2024-06-13T23:22:29.735Z - LOG: Solicitud entrante: POST /api/users/update-role
+2024-06-13T23:22:29.742Z - LOG: Solicitud entrante: GET /api/users
+2024-06-13T23:22:34.796Z - LOG: Solicitud entrante: GET /auth/logout
+2024-06-13T23:22:34.805Z - LOG: Solicitud entrante: GET /login
+2024-06-13T23:22:37.768Z - LOG: Solicitud entrante: POST /auth/login
+2024-06-13T23:22:37.768Z - LOG: Datos recibidos para login: 
+2024-06-13T23:22:37.823Z - LOG: Usuario autenticado con éxito: 
+2024-06-13T23:22:37.841Z - LOG: Solicitud entrante: GET /dashboard
+2024-06-13T23:22:39.819Z - LOG: Solicitud entrante: GET /ver-perfil
+2024-06-13T23:22:39.821Z - ERROR: Error capturado en el middleware: User is not defined
+2024-06-13T23:23:01.650Z - LOG: Solicitud entrante: GET /auth/logout
+2024-06-13T23:23:01.656Z - LOG: Solicitud entrante: GET /login
+2024-06-13T23:23:04.657Z - LOG: Solicitud entrante: POST /auth/login
+2024-06-13T23:23:04.658Z - LOG: Datos recibidos para login: 
+2024-06-13T23:23:04.712Z - LOG: Usuario autenticado con éxito: 
+2024-06-13T23:23:04.729Z - LOG: Solicitud entrante: GET /dashboard-admin
+2024-06-13T23:23:09.939Z - LOG: Solicitud entrante: GET /editar-usuarios
+2024-06-13T23:23:10.015Z - LOG: Solicitud entrante: GET /api/users
+2024-06-13T23:23:11.832Z - LOG: Solicitud entrante: GET /profesionales/21
+2024-06-13T23:23:25.827Z - LOG: Solicitud entrante: PUT /profesionales/21
+2024-06-13T23:23:25.833Z - LOG: Solicitud entrante: GET /api/users
+2024-06-13T23:25:46.332Z - LOG: Solicitud entrante: GET /dashboard-admin
+2024-06-13T23:25:47.986Z - LOG: Solicitud entrante: GET /auth/logout
+2024-06-13T23:25:47.993Z - LOG: Solicitud entrante: GET /login
+2024-06-13T23:25:51.774Z - LOG: Solicitud entrante: POST /auth/login
+2024-06-13T23:25:51.775Z - LOG: Datos recibidos para login: 
+2024-06-13T23:25:51.828Z - LOG: Usuario autenticado con éxito: 
+2024-06-13T23:25:51.847Z - LOG: Solicitud entrante: GET /dashboard
+2024-06-13T23:25:53.500Z - LOG: Solicitud entrante: GET /ver-perfil
+2024-06-13T23:25:53.501Z - ERROR: Error capturado en el middleware: User is not defined
+2024-06-13T23:27:06.441Z - LOG: Solicitud entrante: GET /auth/logout
+2024-06-13T23:27:06.448Z - LOG: Solicitud entrante: GET /login
+2024-06-13T23:27:09.818Z - LOG: Solicitud entrante: POST /auth/login
+2024-06-13T23:27:09.818Z - LOG: Datos recibidos para login: 
+2024-06-13T23:27:09.875Z - LOG: Usuario autenticado con éxito: 
+2024-06-13T23:27:09.918Z - LOG: Solicitud entrante: GET /dashboard-usuario
+2024-06-13T23:27:12.911Z - LOG: Solicitud entrante: GET /auth/logout
+2024-06-13T23:27:12.919Z - LOG: Solicitud entrante: GET /login
+2024-06-13T23:27:15.319Z - LOG: Solicitud entrante: POST /auth/login
+2024-06-13T23:27:15.319Z - LOG: Datos recibidos para login: 
+2024-06-13T23:27:15.373Z - LOG: Usuario autenticado con éxito: 
+2024-06-13T23:27:15.392Z - LOG: Solicitud entrante: GET /dashboard-usuario
+2024-06-13T23:27:17.702Z - LOG: Solicitud entrante: GET /auth/logout
+2024-06-13T23:27:17.708Z - LOG: Solicitud entrante: GET /login
+2024-06-13T23:27:22.229Z - LOG: Solicitud entrante: POST /auth/login
+2024-06-13T23:27:22.229Z - LOG: Datos recibidos para login: 
+2024-06-13T23:27:22.230Z - LOG: Usuario no encontrado: medico3
+2024-06-13T23:27:23.660Z - LOG: Solicitud entrante: POST /auth/login
+2024-06-13T23:27:23.661Z - LOG: Datos recibidos para login: 
+2024-06-13T23:27:23.662Z - LOG: Usuario no encontrado: medico3
+2024-06-13T23:27:36.186Z - LOG: Solicitud entrante: POST /auth/login
+2024-06-13T23:27:36.186Z - LOG: Datos recibidos para login: 
+2024-06-13T23:27:36.242Z - LOG: Usuario autenticado con éxito: 
+2024-06-13T23:27:36.263Z - LOG: Solicitud entrante: GET /dashboard
+2024-06-13T23:27:40.700Z - LOG: Solicitud entrante: GET /gestion-pacientes
+2024-06-13T23:27:40.819Z - LOG: Solicitud entrante: GET /api/pacientes
+2024-06-13T23:30:10.029Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T23:30:10.050Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T23:30:10.050Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T23:30:11.163Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T23:30:11.177Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T23:30:11.177Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T23:30:16.288Z - LOG: Solicitud entrante: GET /auth/logout
+2024-06-13T23:30:16.303Z - LOG: Solicitud entrante: GET /login
+2024-06-13T23:30:19.245Z - LOG: Solicitud entrante: POST /auth/login
+2024-06-13T23:30:19.304Z - LOG: Usuario autenticado con éxito: 
+2024-06-13T23:30:19.324Z - LOG: Solicitud entrante: GET /dashboard-usuario
+2024-06-13T23:30:24.719Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T23:30:24.733Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T23:30:24.733Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T23:30:52.015Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T23:30:52.027Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T23:30:52.028Z - LOG: Conectado a la base de datos MySQL
+2024-06-13T23:30:54.778Z - LOG: Solicitud entrante: GET /auth/logout
+2024-06-13T23:30:54.789Z - LOG: Solicitud entrante: GET /login
+2024-06-13T23:30:57.317Z - LOG: Solicitud entrante: POST /auth/login
+2024-06-13T23:30:57.318Z - LOG: Datos recibidos para login: 
+2024-06-13T23:30:57.399Z - LOG: Solicitud entrante: GET /dashboard-usuario
+2024-06-13T23:31:13.891Z - LOG: Servidor corriendo en el puerto 3000
+2024-06-13T23:31:13.905Z - INFO: Conectado a la base de datos MySQL
+2024-06-13T23:31:13.905Z - LOG: Conectado a la base de datos MySQL

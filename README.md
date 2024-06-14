@@ -21,13 +21,13 @@ Login (Admin)
 Clona el repo
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/Apolo26/recetario.git
 ```
 
 Ir a la ubicacion del proyecto
 
 ```bash
-  cd my-project
+  cd mi-proyecto
 ```
 
 Instalar dependencias

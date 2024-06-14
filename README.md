@@ -9,13 +9,13 @@ Trabajo practico integral laboratorio 2 : recetario electronico
 
 Index
 
-![gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmo5ZTEwM25scTVzZ3k0Y3pza3lhbTJucWhtY2Rhd3IzdWk2Z3gxdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/79tuzkPMW1jQm3IXia/giphy-downsized-large.gif)
+![gif](https://s12.gifyu.com/images/SYtiz.gif)
 
 
 Login (Admin)
 
 
-![gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXByZHpicmVwMHp2bmlmbXplZ2FqeHhxdm1oYnVseXk1d2U1MXFmaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OyJ7JvI5oZpIkcv4wf/source.gif)
+![gif](https://s10.gifyu.com/images/SYtib.gif)
 ## Iniciar Localmente
 
 Clona el repo
